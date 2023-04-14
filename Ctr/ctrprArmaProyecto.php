@@ -65,28 +65,35 @@
                     $r = $reg->obtener_Uneg();
                     echo json_encode($r);
                 break;
-                /*case 3:
-                    $reg = new modCatRubros('', '', '');
-                    $r = $reg->obtenerprCatRubrosB($_GET['cmpBusc']);
-                    echo json_encode($r);
+                case 20:
+                    $reg = new modprArmaProyecto('','','','',''); 
+                    $r = $reg->Obtener_RubroSlc($_GET['codProyecto'],$_GET['codRubro']);
+                    if(empty($r) == 1)
+                        echo 'NR';
+                    else
+                        echo json_encode($r);
                 break;
-                case 4:
-                    $reg = new  modCatRubros('', '', '');
-                    $r = $reg->Obterner_Seg($_GET["CodPantalla"]);
-                    echo json_encode($r);
-                break;
-                case 10:
-                    $reg = new modCatRubros('', '', '');
-                    $r = $reg->obtener_CatGteM();
-                    echo json_encode($r);
-                break;*/
+               
            }
           break;
       case 'PUT':
-          /*$_PUT = json_decode(file_get_contents('php://input'),true);
-          $reg = new modCatRubros($_PUT["CodRubro"], $_PUT["Descripcion"], $_PUT["PerteneceA"]);
-          $r = $reg->UpdateCatRubros();
-          echo json_encode($r);*/
+          $_PUT = json_decode(file_get_contents('php://input'),true);    
+           switch($_PUT['Op'])
+           {
+                case 221:
+                   $reg = new modprArmaProyecto('','','','','');
+                   $r = $reg->Update_RubroSlc($_PUT["CodProyecto"],$_PUT["CodRubro"],$_PUT["FechaInicial"],
+                                        $_PUT["FechaFinal"],$_PUT["CosPresupuestado"]);
+                                     //print_r($_PUT); 
+                   echo json_encode($r); 
+                break;
+                case 222:                   
+                    $Tr = json_decode($_PUT['Registros'],true);
+                    $reg = new modprArmaProyecto('','','','','');
+                    $r = $reg->Update_Tareas($_PUT["CodProyecto"],$_PUT["CodRubro"], $Tr);
+                    echo json_encode($r); 
+                break;
+           }
           break;
       case'DELETE':
            /*if(isset($_GET['CodRubro']))
