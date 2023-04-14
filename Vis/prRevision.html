@@ -1,0 +1,290 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+   <link href="css/styles.css" rel="stylesheet" />
+   <link href="css/styVis.css" rel="stylesheet" type="text/css"/>
+</head>
+<div class="container">
+  <div class="row vh-100 justify-content-center align-items-center">
+  <!-- -->
+  <div class="col-auto p-5">
+    <div class="row">
+      <div class="col-md-10"><h2><strong>Revisión de Proyectos</strong></h2></div>
+      </div>
+    <hr>
+    <div class="row">
+      <div class="form-group col-md-4">
+        <strong><label for="CboProy">Seleccione un proyecto</label></strong>
+        <Select class="form-select" id="CboProyct" onchange="cargaProyct()"></select>
+        <br><br> 
+        <div class="card">
+          <div class="card-body">
+            <div class="table-responsive">
+              <!-- sm md lg xl -->
+              <table id="tblRubros" class="table table-sm" style="width: 500px;">
+                <thead class="table-dark">
+                  <tr>
+                    <th>Cod. Rubro</th>
+                    <th>Descripción</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- aqui se inserta Javascript--->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <br>
+        <div class="card">
+          <div class="card-body">
+
+            <div class="row">
+              <div class="col-md-6">
+                <label for="NomProye">Nombre de Proyecto:</label>
+                <br>
+                <input type="text" id="nameProyct" class="form-control" value="" disabled>
+              </div>
+              <div class="col-md-6">
+                <label for="CodProye">Código de Proyecto:</label>
+                <br>
+                <input type="text" id="codProyct" class="form-control" value="" disabled>
+              </div>
+            </div>
+            <br>
+
+            <div class="row">
+              <div class="col-md-6">
+                <label for="">Fecha de Inicio:</label>
+                <br>
+                <input type="text" class="form-control" id="fechaInicio" value="" disabled>
+              </div>
+              <div class="col-md-6">
+                <label for="">Fecha de Entrega:</label>
+                <br>
+                <input type="text" id="fechaFinal" class="form-control" value="" disabled>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <label for="">Duración:</label>
+                <br>
+                <input type="text" class="form-control" id="MDuracion" value="" disabled>
+              </div>
+              <div class="col-md-6">
+                <label for="">Presupuesto:</label>
+                <br>
+                <input type="text" id="CPresupuesto" class="form-control" value="" disabled>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <br>
+                <label for="">Porcentaje de Avance:</label>
+                <br>
+                <br>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width:0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="idProgress">
+                    <label id="label"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div id="txtMostrar"></div>
+    <!-- inicia tabla de revisiones Generales -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="table-responsive" style="height: 300px;">
+          <!-- sm md lg xl -->
+          <table id="tblRevision" class="table table-sm" style="width: 1200px;">
+            <thead class="table-dark">
+              <tr>
+                <th>Código</th>
+                <th>Descripción</th>
+                <th>Avance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- aqui se inserta Javascript--->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- TODO: ACA QUEDA PENDIENTE, REVISAR PRIMERO LOS BUGS -->
+    <!-- aqui va el bpton-->
+    <div class="row">
+      <div class="col-md-6">
+      </div>
+      <div class="col-md-6">
+        <button type="button" name="button" class="btn btn-light me-md-2" id="btnRevision" data-bs-toggle="" data-bs-target="" onclick="setOpcion(1)">Agregar Revisión</button>
+        <button type="button" name="button" class="btn btn-light me-md-2" id="btnAddImagenRvn" data-bs-toggle="" data-bs-target="" onclick="setOpcion(2)">Agregar Imágenes</button>
+        <button type="button" name="button" class="btn btn-light me-md-2" id="btnAddRevision" data-bs-toggle="" data-bs-target="" onclick="setOpcion(3)">Ver Revisión</button>
+      </div>
+    </div>
+    <br><br>
+  </div>
+</div>
+
+<!-- BOTONES -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="frmSolicita" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Revisión:</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeMd()"></button>
+      </div>
+      <div id="innerHTML"></div>
+      <div class="modal-body">
+        <input type="text" class="form-control" id="CodTarea" placeholder="Número de tarea"> <br>
+        <div class="col-md-12">
+          <textarea class="md-textarea form-control" autocomplete="on" autofocus="true" rows="5" cols="80" id="cmpObservacion"
+          placeholder="Escriba aquí las observaciones de la revisión realizada" required></textarea>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="col-md-5">
+            <div id="FrameRevision">
+              <strong><label for="">Seleccione una revisión:</label></strong>
+              <Select class="form-select" id="cboRevision" onchange=""></select>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="FrameImagen">
+              <strong><label for="">Seleccione una imagén para ser cargada:</label></strong>
+              <br>
+              <input type="file" accept="image/jpeg" name="" value="" id="imgRevision" onchange="visualizaImagen(this);">
+            </div>
+            <div id="preview"></div>
+          </div>
+          <div class="col-md-12">
+            <br>
+          </div>
+          <div class="col-md-12">
+            <textarea class="md-textarea form-control" autocomplete="on" autofocus="true" rows="2" cols="80" id="cmpDescImagn"
+            placeholder="Escriba una descripción breve para la imagen " required></textarea>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" style="background: #EDEEF2;" data-bs-dismiss="modal" onclick="closeMd()">Cancelar</button>
+        <button type="button" class="btn btn-light" style="background: #023444; color:white;" id="cmdGuardar" onclick="drvOperacion();">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Dialogo para preguntar eliminacion -->
+<div class="modal fade" id="PreguntaSiNo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Eliminar Registro Seleccionado</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="ModPregSiNo">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NO</button>
+        <button type="button" class="btn btn-danger" onclick="drvOperacion()">SI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal para las revisiones -->
+<div class="modal fade" id="frmRevision" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ver Revisión:</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeMd()"></button>
+      </div>
+      <div id="innerHTML"></div>
+      <div class="modal-body">
+
+        <div class="row">
+          <div class="col-md-12">
+            <textarea class="md-textarea form-control" autocomplete="on" autofocus="true" rows="2" cols="50" id="cmpObserva" placeholder="Observaciones" required></textarea>
+          </div>
+        </div>
+        <br>
+
+		
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			    <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div id="preview2" class="rounded mx-auto d-block">
+
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" onclick="retrocederFoto()">
+            <span><img src="../archivos/retroceso-rapido.png" alt=""> </span>
+            <span class="sr-only sr-only-focusable text-secondary"> <strong>Previous</strong></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" onclick="pasarFoto()">
+            <span><img src="../archivos/avance-rapido.png" alt=""> </span>
+            <span class="sr-only sr-only-focusable text-secondary"> <i class="bi bi-skip-backward"></i>   <strong>next</strong></span>
+          </a>          
+		</div>
+		
+        <br>
+
+      
+        <div class="col-md-12">
+          <input type="text" class="form-control" id="cmpComentario" placeholder="Comentario de la Imágen:"> <br>
+        </div>
+      </div>
+
+      <div class="modal-footer">        
+		<button type="button" class="btn btn-light" style="background: #EDEEF2;" data-bs-dismiss="modal" onclick="closeMd()">Aceptar</button>        		
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+<script src="js/prRevision.js" type="text/javascript"></script>
+<style>
+  #btnRevision{
+  background:#0a6121;
+  color: white;
+  border-radius: 10px;
+  }
+  #btnAddImagenRvn{
+    background:#092638;
+    color: white;
+    border-radius: 10px;
+  }
+  #btnAddRevision{
+    background:#FFC300;
+    border-radius: 10px;
+  }
+</style>

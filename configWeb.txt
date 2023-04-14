@@ -1,0 +1,13 @@
+Servidor = SDT3\DTS;
+Base de Datos = GcOSMtto;
+Usuario = sa;
+Password = G4v0514g0;
+Servidor2 = 192.168.1.252\GAVSD2;
+Base de Datos2 = QcPorcimarca;
+Usuario2 = sa;
+Password2 = G4v0217g0;
+Servidor3 = 192.168.1.251\GAVSD;
+Base de Datos3 = QcConMarca;
+Usuario3 = sa;
+Password3 = G4v0217g0;
+path = C:\\OsGc\\configWeb.txt;

@@ -1,0 +1,865 @@
+[14-May-2022 18:12:20 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:12:20 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:12:20 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:12:28 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:12:28 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:12:28 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:12:37 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:12:37 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:12:37 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:12:55 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:12:55 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:12:55 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:01 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:01 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:01 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:12 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:12 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:12 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:13 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:13 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:13 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:13 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:13 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:13 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:19 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:19 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:19 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:20 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:20 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:20 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:20 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:20 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:20 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:28 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:28 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:28 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:32 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:32 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:32 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:33 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:34 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:34 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:34 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:34 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:34 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:34 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:34 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:34 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:34 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:45 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:45 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:45 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:46 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:46 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:46 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:46 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:46 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:46 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:15:46 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:15:46 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:15:46 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:17:11 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:17:11 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:17:11 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:19:58 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:19:58 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:19:58 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:01 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:01 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:01 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:01 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:01 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:01 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:02 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:02 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:02 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:02 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:02 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:02 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:08 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:08 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:08 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:11 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:20:12 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:22:27 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:22:27 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:22:27 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:22:37 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:22:37 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:22:37 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:24:32 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:24:32 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:24:32 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:25:48 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:25:48 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:25:48 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:28:03 UTC] PHP Parse error:  syntax error, unexpected ']', expecting ')' in C:\OsGc\Mod\modLogin.php on line 58
+[14-May-2022 18:28:28 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:28:28 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:28:28 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:28:31 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:28:31 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:28:31 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:28:46 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:28:46 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:28:46 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:28:49 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:28:49 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:28:49 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:29:56 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:29:56 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:29:56 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:30:01 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:30:01 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:30:01 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:31:32 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:31:32 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:31:32 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:41:46 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:41:46 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:41:46 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:43:08 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:43:08 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:43:08 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:43:23 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:43:23 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:43:23 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:44:10 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:44:10 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:44:10 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:44:22 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:44:22 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:44:22 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:44:26 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:44:26 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:44:26 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 18:48:26 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 18:48:26 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 18:48:26 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:01:47 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:01:47 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:01:47 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:01:54 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:01:54 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:01:54 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:01:55 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:01:55 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:01:55 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:01:56 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:01:56 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:01:56 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:01:57 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:02:10 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:02:10 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:02:10 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:03:14 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:03:14 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:03:14 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:03:15 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:03:15 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:03:15 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:03:15 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:03:15 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:03:15 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:03:15 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:03:15 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:03:15 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:03:16 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[14-May-2022 19:05:42 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[14-May-2022 19:05:42 UTC] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[14-May-2022 19:05:42 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:12:42 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[16-May-2022 12:12:42 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:12:43 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:13:00 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\ClsMsSql.php on line 35
+[16-May-2022 17:13:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\Mod\modOSGeneral.php on line 7
+[16-May-2022 12:14:50 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[16-May-2022 12:14:50 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:14:50 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:15:07 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\ClsMsSql.php on line 35
+[16-May-2022 17:15:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\Mod\modOSGeneral.php on line 7
+[16-May-2022 12:15:25 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\ClsMsSql.php on line 35
+[16-May-2022 12:15:42 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\ClsMsSql.php on line 35
+[16-May-2022 12:16:04 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[16-May-2022 12:16:04 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:16:04 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 17:16:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\Mod\modOSGeneral.php on line 7
+[16-May-2022 12:16:37 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\ClsMsSql.php on line 35
+[16-May-2022 12:18:57 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[16-May-2022 12:18:57 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:18:57 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:19:15 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\ClsMsSql.php on line 35
+[16-May-2022 17:19:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\Mod\modOSGeneral.php on line 7
+[16-May-2022 12:19:32 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\ClsMsSql.php on line 35
+[16-May-2022 12:21:05 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[16-May-2022 12:21:05 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:21:05 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 17:21:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\Mod\modOSGeneral.php on line 7
+[16-May-2022 12:21:37 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\ClsMsSql.php on line 35
+[16-May-2022 12:23:19 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[16-May-2022 12:23:19 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:23:19 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:23:37 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\ClsMsSql.php on line 35
+[16-May-2022 17:23:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\Mod\modOSGeneral.php on line 7
+[16-May-2022 12:23:38 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[16-May-2022 12:23:38 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:23:38 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:23:56 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[16-May-2022 12:23:56 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:23:56 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:24:13 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\ClsMsSql.php on line 35
+[16-May-2022 17:24:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\Mod\modOSGeneral.php on line 7
+[16-May-2022 12:25:57 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[16-May-2022 12:25:57 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:25:57 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:26:16 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[16-May-2022 12:26:16 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:26:16 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:26:33 America/Mexico_City] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\ClsMsSql.php on line 35
+[16-May-2022 17:26:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\Mod\modOSGeneral.php on line 7
+[16-May-2022 17:26:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\OsGc\Mod\modOSGeneral.php on line 7
+[16-May-2022 12:27:04 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[16-May-2022 12:27:04 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:27:04 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:29:03 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:29:03 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:29:19 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:29:19 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:29:20 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:29:20 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 12:30:30 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[16-May-2022 12:30:30 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-May-2022 18:12:59 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[18-May-2022 16:28:25 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[20-May-2022 09:53:51 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 09:53:51 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 09:53:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 09:53:52 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 09:53:52 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 09:53:52 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 09:53:52 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 09:53:52 America/Mexico_City] PHP Notice:  Undefined index: tbl in C:\OsGc\Ctr\ctrOSGeneral.php on line 56
+[20-May-2022 09:53:52 America/Mexico_City] PHP Notice:  Undefined index: fil in C:\OsGc\Ctr\ctrOSGeneral.php on line 56
+[20-May-2022 09:53:52 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[20-May-2022 09:53:52 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 09:53:52 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 09:56:42 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 09:56:49 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 09:56:49 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 10:04:02 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 10:04:02 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 10:04:21 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 304
+[20-May-2022 10:04:24 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 10:04:25 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 10:04:49 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 10:04:49 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 10:04:49 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 10:04:49 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 10:04:49 America/Mexico_City] PHP Notice:  Undefined index: Os in C:\OsGc\Ctr\ctrOSGeneral.php on line 51
+[20-May-2022 10:04:49 America/Mexico_City] PHP Notice:  Undefined index: estdoc in C:\OsGc\Ctr\ctrOSGeneral.php on line 51
+[20-May-2022 10:04:49 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[20-May-2022 10:04:49 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 10:04:49 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 10:06:48 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 10:06:48 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 10:07:04 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 10:07:13 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 10:07:13 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 10:08:27 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 10:08:27 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:16:43 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 11:16:43 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 11:16:43 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 11:22:06 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 11:23:44 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 11:23:44 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:23:48 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 304
+[20-May-2022 11:23:48 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 304
+[20-May-2022 11:23:48 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 11:24:19 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 11:24:19 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:24:38 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 304
+[20-May-2022 11:24:38 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 11:24:40 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 11:24:40 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:24:45 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 11:24:45 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:36:58 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 11:36:58 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:37:09 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 11:37:09 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:37:31 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 11:38:26 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 11:38:26 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:38:31 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 11:38:31 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:39:20 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 11:39:20 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:54:00 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 11:54:00 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 11:54:00 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 11:54:21 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 12:10:43 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:10:43 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:10:54 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:10:54 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:11:00 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:11:00 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:11:40 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:11:40 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:11:51 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:11:51 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:12:14 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:12:14 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:12:31 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:12:31 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:13:04 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:13:04 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:13:50 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:13:50 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:14:10 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:14:10 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:14:51 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:14:51 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:14:54 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 12:15:30 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:15:30 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:15:36 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:15:36 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:17:37 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:17:37 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 765
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 768
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 769
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 770
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 771
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Undefined offset: 0 in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 12:17:37 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\Mod\modOSGeneral.php on line 772
+[20-May-2022 12:17:58 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 12:23:15 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:23:15 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:26:00 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:26:00 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:27:49 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:27:49 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:28:28 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 12:28:28 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 12:45:17 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 12:46:06 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 304
+[20-May-2022 12:46:06 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 304
+[20-May-2022 12:46:06 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 12:46:35 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 304
+[20-May-2022 12:46:35 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[20-May-2022 16:38:18 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 16:38:18 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 16:38:18 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 16:38:18 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 16:38:18 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[20-May-2022 16:38:18 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 16:38:18 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[20-May-2022 16:50:29 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 16:50:29 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 16:50:29 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 16:50:29 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modOSGeneral.php on line 165
+[20-May-2022 16:50:29 America/Mexico_City] PHP Notice:  Undefined index: Os in C:\OsGc\Ctr\ctrOSGeneral.php on line 51
+[20-May-2022 16:50:29 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 264
+[20-May-2022 16:50:29 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 268
+[20-May-2022 16:50:29 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[21-May-2022 17:26:42 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 368
+[31-May-2022 12:20:25 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[31-May-2022 12:20:25 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\OsGc\Mod\modRpvehMaqPesada.php on line 41
+[31-May-2022 12:20:44 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[31-May-2022 12:20:44 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\OsGc\Mod\modRpvehMaqPesada.php on line 41
+[01-Jun-2022 10:50:48 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 10:50:48 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\OsGc\Mod\modRpvehMaqPesada.php on line 41
+[01-Jun-2022 15:50:53 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[01-Jun-2022 10:55:48 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 10:59:21 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 10:59:29 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 15:59:33 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[01-Jun-2022 10:59:44 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 16:00:32 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[01-Jun-2022 11:00:56 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 11:08:02 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 16:08:08 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[01-Jun-2022 11:08:25 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 16:08:30 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[01-Jun-2022 11:29:38 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 11:29:38 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 11:30:20 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 11:34:42 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 11:36:29 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 11:36:37 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[01-Jun-2022 16:09:58 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[02-Jun-2022 08:09:06 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[02-Jun-2022 13:09:16 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[02-Jun-2022 16:35:36 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[02-Jun-2022 12:35:45 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[04-Jun-2022 08:20:47 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[09-Jun-2022 14:57:50 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 376
+[09-Jun-2022 14:59:38 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[09-Jun-2022 14:59:46 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[09-Jun-2022 20:01:10 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:02:51 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:10:19 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:11:19 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:12:42 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:13:59 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:15:29 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:16:49 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:18:04 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:18:47 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:21:29 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:22:32 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:26:55 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 20:27:22 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:05:32 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:07:25 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:08:25 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:08:44 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:10:00 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:10:29 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:11:09 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:12:46 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:13:04 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:13:46 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:17:42 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:18:43 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:28:31 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:28:58 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 16:29:37 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[09-Jun-2022 16:29:48 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[09-Jun-2022 21:29:50 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 16:30:04 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[09-Jun-2022 21:30:16 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 16:30:40 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[09-Jun-2022 16:30:49 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[09-Jun-2022 21:30:54 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 16:31:40 America/Mexico_City] PHP Notice:  Undefined variable: variable2 in C:\OsGc\ClsMsSql.php on line 110
+[09-Jun-2022 21:31:59 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 21:45:34 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 19:51:36 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 376
+[10-Jun-2022 00:54:02 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Jun-2022 22:25:25 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modOSGeneral.php on line 165
+[09-Jun-2022 22:25:25 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modOSGeneral.php on line 165
+[09-Jun-2022 22:25:25 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modOSGeneral.php on line 165
+[09-Jun-2022 22:25:25 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modOSGeneral.php on line 165
+[09-Jun-2022 22:25:25 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[09-Jun-2022 22:25:25 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 276
+[09-Jun-2022 22:25:25 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 280
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined index: path in C:\OsGc\Mod\modUsuario.php on line 38
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Warning:  fopen(): Filename cannot be empty in C:\OsGc\ClsParam.php on line 42
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 51
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 51
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 52
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 52
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 53
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 53
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 54
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 54
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 56
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 56
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 57
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 57
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 58
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 58
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 59
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 59
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 61
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 61
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 62
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 62
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 63
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 63
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 64
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 64
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 65
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 65
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modUsuario.php on line 39
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modUsuario.php on line 39
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modUsuario.php on line 39
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modUsuario.php on line 39
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 276
+[09-Jun-2022 22:34:56 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 280
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modOSGeneral.php on line 165
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modOSGeneral.php on line 165
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modOSGeneral.php on line 165
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modOSGeneral.php on line 165
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: Fini in C:\OsGc\Ctr\ctrOSGeneral.php on line 25
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: Ffin in C:\OsGc\Ctr\ctrOSGeneral.php on line 25
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: EdoDoc in C:\OsGc\Ctr\ctrOSGeneral.php on line 25
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: Prd in C:\OsGc\Ctr\ctrOSGeneral.php on line 26
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: Tmtto in C:\OsGc\Ctr\ctrOSGeneral.php on line 26
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: Uneg in C:\OsGc\Ctr\ctrOSGeneral.php on line 26
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: Gmtto in C:\OsGc\Ctr\ctrOSGeneral.php on line 26
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Notice:  Undefined index: Solt in C:\OsGc\Ctr\ctrOSGeneral.php on line 26
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 276
+[09-Jun-2022 22:41:38 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 280
+[10-Jun-2022 03:23:25 America/Mexico_City] PHP Notice:  Undefined index: op in C:\OsGc\Ctr\ctrOSGeneral.php on line 21
+[10-Jun-2022 03:23:25 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modOSGeneral.php on line 165
+[10-Jun-2022 03:23:25 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modOSGeneral.php on line 165
+[10-Jun-2022 03:23:25 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modOSGeneral.php on line 165
+[10-Jun-2022 03:23:25 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modOSGeneral.php on line 165
+[10-Jun-2022 03:23:25 America/Mexico_City] PHP Notice:  Undefined index: Fini in C:\OsGc\Ctr\ctrOSGeneral.php on line 25
+[10-Jun-2022 03:23:25 America/Mexico_City] PHP Notice:  Undefined index: Ffin in C:\OsGc\Ctr\ctrOSGeneral.php on line 25
+[10-Jun-2022 03:23:25 America/Mexico_City] PHP Notice:  Undefined index: EdoDoc in C:\OsGc\Ctr\ctrOSGeneral.php on line 25
+[10-Jun-2022 03:23:25 America/Mexico_City] PHP Notice:  Undefined index: Prd in C:\OsGc\Ctr\ctrOSGeneral.php on line 26
+[10-Jun-2022 03:23:25 America/Mexico_City] PHP Notice:  Undefined index: Tmtto in C:\OsGc\Ctr\ctrOSGeneral.php on line 26
+[10-Jun-2022 03:23:25 America/Mexico_City] PHP Notice:  Undefined index: Uneg in C:\OsGc\Ctr\ctrOSGeneral.php on line 26
+[10-Jun-2022 03:23:26 America/Mexico_City] PHP Notice:  Undefined index: Gmtto in C:\OsGc\Ctr\ctrOSGeneral.php on line 26
+[10-Jun-2022 03:23:26 America/Mexico_City] PHP Notice:  Undefined index: Solt in C:\OsGc\Ctr\ctrOSGeneral.php on line 26
+[10-Jun-2022 03:23:26 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[10-Jun-2022 03:23:26 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 276
+[10-Jun-2022 03:23:26 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 280
+[10-Jun-2022 14:22:39 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[10-Jun-2022 09:36:53 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 312
+[10-Jun-2022 09:36:53 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 312
+[10-Jun-2022 09:36:53 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 376
+[10-Jun-2022 10:04:24 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 376
+[10-Jun-2022 16:02:05 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[10-Jun-2022 16:02:54 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[10-Jun-2022 16:08:57 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[10-Jun-2022 15:20:54 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modOSGeneral.php on line 165
+[10-Jun-2022 15:20:54 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modOSGeneral.php on line 165
+[10-Jun-2022 15:20:54 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modOSGeneral.php on line 165
+[10-Jun-2022 15:20:54 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modOSGeneral.php on line 165
+[10-Jun-2022 15:20:54 America/Mexico_City] PHP Notice:  Undefined index: Os in C:\OsGc\Ctr\ctrOSGeneral.php on line 51
+[10-Jun-2022 15:20:54 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[10-Jun-2022 15:20:54 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 276
+[10-Jun-2022 15:20:54 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 280
+[12-Aug-2022 14:17:45 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 13:26:41 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 08:28:30 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\OsGc\Mod\modUsuario.php on line 181
+[16-Aug-2022 13:30:01 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 13:30:33 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 19:40:45 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 19:40:58 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 19:42:40 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 19:44:01 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 19:44:31 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 21:19:18 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 21:31:22 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(C:\Windows\TEMP) failed: No error (0) in C:\OsGc\Mod\modOSGeneral.php on line 5
+[16-Aug-2022 16:34:35 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modOSGeneral.php on line 165
+[16-Aug-2022 16:34:35 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modOSGeneral.php on line 165
+[16-Aug-2022 16:34:35 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modOSGeneral.php on line 165
+[16-Aug-2022 16:34:35 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modOSGeneral.php on line 165
+[16-Aug-2022 16:34:35 America/Mexico_City] PHP Notice:  Undefined index: tbl in C:\OsGc\Ctr\ctrOSGeneral.php on line 56
+[16-Aug-2022 16:34:35 America/Mexico_City] PHP Notice:  Undefined index: fil in C:\OsGc\Ctr\ctrOSGeneral.php on line 56
+[16-Aug-2022 16:34:35 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-Aug-2022 16:34:35 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 276
+[16-Aug-2022 16:34:35 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 280
+[16-Aug-2022 16:42:52 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modOSGeneral.php on line 165
+[16-Aug-2022 16:42:52 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modOSGeneral.php on line 165
+[16-Aug-2022 16:42:52 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modOSGeneral.php on line 165
+[16-Aug-2022 16:42:52 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modOSGeneral.php on line 165
+[16-Aug-2022 16:42:52 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-Aug-2022 16:42:52 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 276
+[16-Aug-2022 16:42:52 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 280
+[16-Aug-2022 22:00:45 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined index: path in C:\OsGc\Mod\modCatPrProyectos.php on line 69
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Warning:  fopen(): Filename cannot be empty in C:\OsGc\ClsParam.php on line 42
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 51
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 51
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 52
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 52
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 53
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 53
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 54
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 54
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 56
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 56
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 57
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 57
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 58
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 58
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 59
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 59
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 61
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 61
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 62
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 62
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 63
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 63
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 64
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 64
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 65
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 65
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 276
+[16-Aug-2022 17:04:25 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 280
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined index: path in C:\OsGc\Mod\modCatPrProyectos.php on line 69
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Warning:  fopen(): Filename cannot be empty in C:\OsGc\ClsParam.php on line 42
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 51
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 51
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 52
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 52
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 53
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 53
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 54
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 54
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 56
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 56
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 57
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 57
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 58
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 58
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 59
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 59
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 61
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 61
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 62
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 62
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 63
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 63
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 64
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 64
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 65
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 65
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 276
+[16-Aug-2022 17:04:40 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 280
+[16-Aug-2022 22:08:18 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 22:08:32 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[16-Aug-2022 22:28:04 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined index: path in C:\OsGc\Mod\modCatPrProyectos.php on line 69
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Warning:  fopen(): Filename cannot be empty in C:\OsGc\ClsParam.php on line 42
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 51
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 51
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 52
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 52
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 53
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 53
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 54
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 54
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 56
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 56
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 57
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 57
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 58
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 58
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 59
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 59
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 61
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 61
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 62
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 62
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 63
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 63
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 64
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 64
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 65
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 65
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 276
+[17-Aug-2022 13:45:51 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 280
+[17-Aug-2022 20:38:37 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(C:\Windows\TEMP) failed: No error (0) in C:\OsGc\Mod\modOSGeneral.php on line 5
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined index: path in C:\OsGc\Mod\modCatPrProyectos.php on line 69
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Warning:  fopen(): Filename cannot be empty in C:\OsGc\ClsParam.php on line 42
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 51
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 51
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 52
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 52
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 53
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 53
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 54
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 54
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 56
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 56
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 57
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 57
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 58
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 58
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 59
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 59
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 61
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 61
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 62
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 62
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 63
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 63
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 64
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 64
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined property: ClsParam::$valores in C:\OsGc\ClsParam.php on line 65
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Trying to access array offset on value of type null in C:\OsGc\ClsParam.php on line 65
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined index: Servidor in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined index: Usuario in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined index: Datos in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Notice:  Undefined index: Passw in C:\OsGc\Mod\modCatPrProyectos.php on line 70
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 272
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 276
+[17-Aug-2022 15:41:23 America/Mexico_City] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, bool given in C:\OsGc\ClsMsSql.php on line 280
+[17-Aug-2022 21:32:32 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[17-Aug-2022 21:33:54 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[17-Aug-2022 21:39:10 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[17-Aug-2022 21:55:32 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[17-Aug-2022 22:02:12 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[17-Aug-2022 22:03:12 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[17-Aug-2022 22:05:40 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[18-Aug-2022 14:29:46 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[20-Aug-2022 14:07:49 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[20-Aug-2022 17:58:49 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[24-Aug-2022 16:53:56 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[29-Aug-2022 13:19:47 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[29-Aug-2022 15:00:21 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[29-Aug-2022 18:27:23 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[29-Aug-2022 19:21:05 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[29-Aug-2022 21:01:50 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[02-Sep-2022 15:33:18 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[02-Sep-2022 21:11:06 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[03-Sep-2022 18:55:56 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[05-Sep-2022 21:20:38 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[06-Sep-2022 16:32:36 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[09-Sep-2022 18:47:08 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[13-Sep-2022 13:52:30 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[19-Sep-2022 21:55:35 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[22-Sep-2022 14:22:16 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[24-Sep-2022 18:55:22 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[26-Sep-2022 16:29:49 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[29-Sep-2022 16:28:22 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[29-Sep-2022 19:22:51 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[29-Sep-2022 21:31:36 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[01-Oct-2022 14:42:30 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[03-Oct-2022 14:26:32 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[19-Oct-2022 13:12:47 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17
+[03-Jan-2023 23:04:05 UTC] PHP Notice:  Undefined index: var in C:\OsGc\Ctr\ctrLogin.php on line 17

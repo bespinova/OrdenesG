@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reportes</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row vh-100 justify-content-center align-items-center">
+                <div class="col p-4">
+                    <div class="row">
+                        <div class="col-md-10"><h2><strong>Reporte de Maquinaria Pesada</strong></h2></div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                            <strong><label for="CboEstatus">Estatus</label> </strong>
+                                <Select  class="form-select form-select-sm" aria-label="Default select example" id="CboEstatus" onchange="rstFiltros()">
+                                    <option Value="1" >Disponible</option>
+                                    <option Value="0" >En Servicio</option> 
+                                </select>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="txtMostrar"></div>
+                    <div class="input-group p-2">
+                        <div class="table-responsive" style="height: 300px;overflow: scroll;">
+                            <table class="table table-hover table-bordered" id="tblRpMq" >
+                                <thead class="">
+                                </thead>
+                                <tr>
+                                    <th scope="col">Folio</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Tipo de Vehiculo</th>
+                                    <th scope="col">Número del Servicio</th>
+                                    <th scope="col">Descripción de Fallo</th>
+                                    <th scope="col">Area solicitante</th>
+                                    <th scope="col">Estatus</th>
+                                    <th scope="col">Fecha Asignación</th>
+                                    <th scope="col">Fecha Liberación</th>
+                                </tr>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="js/RpvehMaqPesada.js" type="text/javascript"></script>

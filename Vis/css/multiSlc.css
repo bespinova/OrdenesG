@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18/02/2022, 02:22:00 PM
+    Author     : Administrador
+*/
+
+                h1 {
+			color: green;
+		}
+
+		.multipleSelection {
+			width: 300px;
+			background-color: #ebeff5;                        
+		}
+
+		.selectBox {
+			position: relative;
+		}
+
+		.selectBox select {
+			width: 100%;
+			font-weight: bold;
+		}
+
+		.overSelect {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+		}
+
+		#checkBoxes {
+			display: none;
+                        height: 150px;
+	                width: 300px;
+                        overflow-y: scroll;
+			border: 1px #8DF5E4 solid;
+		}
+
+		#checkBoxes label {
+			display: block;
+		}
+
+		#checkBoxes label:hover {
+			background-color: #4F615E;
+		}

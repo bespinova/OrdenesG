@@ -1,0 +1,44 @@
+<?php
+header("Content-Type: application/json");
+header('Access-Control-Allow-Origin: *');
+include_once("../mod/modRevision.php");
+date_default_timezone_set('America/Mexico_City');
+
+switch ($_SERVER['REQUEST_METHOD']) {
+  case 'POST':
+
+    break;
+  case 'GET':
+    switch ($_GET['varCod']) {
+      case '1':
+          $reg = new modRevision('','','','','');
+          $r = $reg->muestraRubrosConProyc($_GET['varPrcy']);
+          echo json_encode($r);
+        break;
+        case '2':
+          $reg = new modRevision('','','','','');
+          $r = $reg->muestraRvsnPryct($_GET['varPrcyRvsn']);
+          echo json_encode($r);
+        break;
+
+      default:
+
+        break;
+    }
+
+    break;
+  case 'PUT':
+
+    break;
+
+  case 'DELETE':
+
+    break;
+
+  default:
+    echo json_encode("No hay ningún método de petición");
+    break;
+}
+
+
+ ?>

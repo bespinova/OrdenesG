@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,300i,500,500i,700,700i,900,900i');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+:root {
+  --f-base: 20px;
+
+  --type1: "Montserrat", comic sans, sans-serif;
+  --type2: "Exo 2", arial, sans-serif;
+  --icono: "fontawesome";
+
+  --gris-01: rgb(140, 140, 140);
+  --gris-02: rgb(143, 160, 180);
+  --gris-02-alfa03: rgba(143, 160, 180,.3);
+  --gris-02-alfa05: rgba(143, 160, 180,.5);
+  --blanco-01: rgb(252, 252, 255);
+  --blanco-01-alfa08: rgba(252, 252, 255,.8);
+  --blanco-02: rgb(245, 245, 248);
+  --blanco-02-alfa01: rgba(245, 245, 248,.1);
+  --blanco-02-alfa02: rgba(245, 245, 248,.2);
+  --blanco-02-alfa08: rgba(245, 245, 248,.8);
+  --negro-01-alfa01: rgba(0,0,0,0.1);
+  --negro-01-alfa02: rgba(0,0,0,0.2);
+  --negro-01-alfa03: rgba(0,0,0,0.3);
+
+  --color-01: rgb(255, 0, 0); /*Azul ITA*/
+  --color-01-dark: rgba(225,255,0);
+  --color-01-light: rgb(161,203,216);
+  --color-02: rgb(219,220,44); /*verde*/
+  
+  --gradiante-01:
+      linear-gradient( 
+        90deg, 
+        var(--color-01) 0%,
+        var(--color-01-dark) 100%);
+  --gradiante-02:
+      linear-gradient( 
+        to bottom, 
+        var(--blanco-01) 0%,
+        var(--blanco-01) 60%,
+        var(--blanco-02) 100%);
+  
+  --img-bg1:url('http://ita-sa.com/intranet2/img/fondo-instrucciones.jpg');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--type1);
+  text-align: center;
+  color: var(--gris-01);
+  background-color: var(--blanco-02);
+  font-size: var(--f-base);
+  margin: 0;
+  padding-top: 5rem;
+
+  --w-menu: 3.5rem;
+  --h-navbar: 3.5rem;
+}
+
+p{
+  padding: 0.35em 1em;
+}
+
+.principal.contenedor{
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.topbar{
+  top:0;
+  left: 0;
+  position: fixed;
+  display: flex;
+/*   flex-wrap: wrap; */
+  align-items: center;
+  z-index: 2;
+  width: 100%;
+  background-color: var(--blanco-01);
+  box-shadow: 0 0 2em var(--negro-01-alfa01);
+}
+
+.logo{
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  height: var(--h-navbar);
+  text-align: left;
+  background-color: var(--blanco-01);
+}
+
+.logo img{
+  width: auto;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo span{
+  vertical-align: middle;
+  display: inline-block;
+  font-family: var(--type1);
+  color: var(--gris-02);
+  font-weight: 300;
+  font-size: 0;
+}
+
+.menu.top{
+  min-width: 80%;
+}
+
+.titulo-seccion{
+  display: inline-block;
+  font-weight: 400;
+  padding-left: 1em;
+  font-size: 1.0em;
+  color: var(--color-01-dark);
+  text-align: left;
+}
+
+.menu.lateral {
+  width: var(--w-menu);
+  background-color: var(--blanco-01);
+  min-height: 100vh;
+  z-index: 1;
+}
+
+.menu.lateral ul {
+  position: fixed;
+  top: var(--h-navbar);
+  left: 0;
+  width: var(--w-menu);
+  padding: 0;
+  list-style: none;
+  min-height: 100vh;
+  padding-top: calc(var(--h-navbar) * 0.8);
+  background-image: var(--gradiante-01);
+  z-index: 2;
+}
+
+.menu.lateral a {
+  max-height: 2.0rem;
+  padding: 0.4rem 1rem;
+  width: 100%;
+  max-width: 5rem;
+  overflow: hidden;
+/*   font-size: 0.9em; */
+  display: block;
+  color: var(--blanco-02);
+  text-decoration: none;
+  transition: box-shadow ease .3s;  
+  background-color: var(--blanco-02-alfa01);
+  --color: var(--blanco-02);
+  box-shadow: 
+    inset .2rem 0 0 0 var(--color),
+    inset 0 1px 0 0 var(--blanco-02-alfa01),
+    inset 0 -1px 0 0 var(--blanco-02-alfa01);
+}
+
+.menu.lateral a::before{
+  font-family: var(--icono);
+  padding-right: .5em;
+  color: var(--blanco-01);
+}
+
+.menu.lateral a:hover {
+  background-color: #fff;
+  color: var(--color-01);
+  --color: var(--color-01);
+}
+
+.menu.lateral a:hover::before{
+  color: var(--color-01);  
+}
+
+.menu.lateral a:not([href*="car"]):not([href*="reg"]):not([href*="man"])
+{
+  font-size: 0em;
+}
+
+.menu.lateral a[href*="car"],
+.menu.lateral a[href*="reg"],
+.menu.lateral a[href*="man"]
+{
+  font-size: 0;
+}
+
+.menu.lateral a b{
+  display: inline-block;
+  font-size: var(--f-base);
+}
+
+.menu label {
+  --x: var(--h-navbar);
+  position: fixed;
+  left: 0em;
+  top: calc( var(--x) + 0.3rem );
+  font-size: 0rem;
+  padding: calc( var(--x) * 0.2) 1rem;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 3;
+  color: var(--blanco-01)
+}
+
+.menu label:before{
+  content: '\f0c9';
+  font-family: var(--icono);
+  padding-left: .3em;
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+.ancla{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.btn.subir{
+  position: fixed;
+  right: calc(2em + 2vmin);
+  bottom: calc(2em + 2vmin);
+  z-index: 100;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  line-height: 2em;
+  background-color: var(--blanco-01-alfa08);
+  box-shadow: 0 0 1em var(--negro-01-alfa01);
+  color: var(--color-01);
+}
+
+.btn.subir::before{
+  content: "\f062";
+  display: inline-block;
+  font-family: var(--icono);
+}
+
+.contenedor.contenido {
+  width: calc(100% - var(--w-menu));
+  padding: 2em 5em;
+  padding: 0 0em 5vmin;
+}
+
+.instrucciones{
+  background-color: var(--blanco-01);
+  padding: 1em;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.instrucciones::before{
+  content: '';
+  width: 120%;
+  height: 120%;
+  top: -10%;
+  left: -10%;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  filter: blur(5px);
+  /*background-image: var(--img-bg1);*/
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+.instrucciones::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+  background-image: var(--gradiante-02);
+  opacity: 0.8;
+  box-shadow: inset 0 -0.3em 3em 0 var(--gris-02-alfa03);
+}
+
+.instrucciones>*{
+  position: relative;
+  z-index: 3;
+}
+
+.instrucciones p{
+  font-size: 0.8em;
+  text-shadow: 1px 1px 5px white, 0 0 1em white;
+}
+
+.instrucciones .titulo{
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.instrucciones .tituloT{
+  text-transform: uppercase;
+  color: rgb(0,0,0);
+  padding: 1em;
+}
+
+.instrucciones .icono{
+  color: var(--color-01);
+}
+
+.btn{
+  font-family: var(--type2);
+}
+
+.btn.expandir{
+  text-shadow: 0 0 0 rgba(255,255,255,0);
+  background-color: var(--blanco-01);
+  display: inline-block;
+  padding: 0.3rem;
+  font-size: 0;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  line-height: 1rem;
+  position: relative;
+  z-index: 1;
+  margin: 0.5rem auto;
+  box-shadow: 0 0 0.5rem 0 var(--negro-01-alfa01);
+}
+
+.btn.expandir:focus{
+  outline: none;
+}
+
+.btn.expandir::before{
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0.3em;
+  font-size: 1rem;
+  width: 6em;
+  background-color: var(--color-01);
+  height: calc(100% - 0.6em);
+  border-radius: 2em;
+  transition: all ease .3s;
+}
+
+.btn.expandir span{
+  font-size: 1rem;
+  position: relative;
+  z-index: 3;
+  color: var(--color-01);
+  display: inline-block;
+  padding: 0.3em 0.5em 0.4em;
+  line-height: 1em;
+  min-width: 6em;
+  cursor: pointer;
+}
+
+.ctrl.expandir:checked ~ .instrucciones span.expandir,
+.ctrl.expandir:not(:checked) ~ .instrucciones span.contraer{
+  color: var(--blanco-01);
+  cursor: default;
+}
+
+.ctrl.expandir:checked ~ .instrucciones .expandir:before{
+  left: 50%;
+  right: 0.3em;
+}
+
+.ctrl.expandir:not(:checked) ~ .instrucciones .expandir:before{
+  left: 0.3em;
+  right: 50%;
+}
+
+.grupo-buscador{
+  padding: 1em;
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+}
+
+.buscador{
+  --color: var(--gris-02);
+  position: relative;
+  z-index: 3;
+  display: inline-block;
+  border: none;
+  box-shadow: inset 0 0 0 1px var( --color);
+  color: gray;
+  width: 100%;
+  max-width: 30em; 
+  font-size: 1.0em; 
+  font-family: var( --type1); 
+  text-transform: uppercase;
+  padding: 0.5em;
+  padding-left: 3em;
+  border-radius: 2em;
+  transition: all ease .3s;
+}
+
+.buscador:focus{
+  padding-left: 1em;
+  outline: none;
+  --color: var(--color-01);
+}
+
+.buscador:focus ~ .fa-search{
+/*   transform: translateX(-150%) translateY(-50%); */
+  left: calc(100% - 0.5em);
+  background-color: var(--color-01);
+  font-size: 1.2em;
+}
+
+.grupo-buscador .fa-search {
+/*   content: '\f002'; */
+  font-family: var(--icono);
+  position: absolute;
+  z-index: 3;
+  transition: all ease .3s;
+  padding: .2em;
+  background: lightgray;
+  border-radius: 3em;
+  font-size: 0.9em;
+  width: 1.8em;
+  height: 1.8em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  left: 1.4em;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--color-01-light);
+  color: var(--blanco-01);
+}
+
+.seccion {
+  padding: calc(1em + 1vmin) 0;
+}
+
+.subseccion {
+  background-color: var(--blanco-01);
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  text-align: left;
+  box-shadow: 
+    inset 0 0 0 1px var(--blanco-01), 
+    inset 0 -.5em 0.5em rgba(0, 0, 0, 0.05);
+  padding-bottom: 1em;
+}
+
+.lista {
+  text-align: left;
+  position: relative;
+  padding: .5em 1em 2.2em 2em;
+}
+
+.listaModificada {
+  text-align: center;  padding: .2em 8em 2.2em 2em;
+}
+
+.lista li {
+  padding: 0.3em 0;
+  font-size: 0.8em;
+}
+
+.lista b {
+  display: block;
+  min-width: 5em;
+  vertical-align: middle;
+}
+
+.lista a {
+  font-size: 0.8em;
+  color: var(--color-01);
+  width: calc(100% - 6em);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h3 {
+  font-family: var(--type2);
+  padding: 1em;
+  color: var(--color-01-dark);
+}
+
+h3.show{
+  display: block !important;
+}
+
+h3:first-child{
+  padding-top: 1em;
+}
+
+h3:not(:first-child) {
+  padding-top: 3em;
+}
+
+h3::before{
+  font-weight: normal;
+  font-family: var(--icono);
+  display: block;
+  text-align: center;
+  width: 2em;
+  height: 2em;
+  font-size: 1.5em;
+  line-height: 2em;
+  box-shadow: 0 0 .5em var(--negro-01-alfa01);
+  background-color: var(--blanco-01);
+  border-radius: 50%;
+  margin: 0 auto .5em;
+}
+
+.th::before,
+#th::before{
+  content: '\f0e8';
+}
+
+.lc::before,
+#lc::before{
+  content: '\f0b1';
+}
+
+.de::before,
+#de::before{
+  content: '\f267';
+}
+
+.gd::before,
+#gd::before{
+  content: '\f0ea';
+}
+
+.hc::before,
+#hc::before{
+  content: '\f19c';
+}
+
+.gt::before,
+#gt::before{
+  content: '\f085';
+}
+
+.ga::before,
+#ga::before{
+  content: '\f217';
+}
+<!-- mostrar una imagen --->
+.mc::before,
+#mc::before{
+  background-image: url("../Image/justice2.ico");
+}
+
+.mc::before,
+#mc::before{
+  background-image: url("../Image/justice2.ico");
+}
+
+.esconde{
+  position: fixed;
+  opacity: 0.1;
+}
+
+h3 b{
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-family: var(--type2);
+  padding: 0.5em 1em ;
+  background-color: var(--color-01);
+  background-image: var(--gradiante-01);
+  color: var(--blanco-01);
+  position: relative;
+  cursor: pointer;
+}
+
+h4:focus{
+  outline: none;
+  pointer-events: none;
+  background-image: none;
+  background-color: var(--color-02);
+  color: var(--color-01);
+}
+
+h4::after{
+  content: "\f055";
+  font-weight: normal;
+  font-family: var(--icono);
+  position: absolute;
+  right: .5em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h4:focus::after{
+  content: "\f147";  
+}
+
+.subseccion.otros{  
+  margin-top: 2em;
+  position: relative;
+}
+
+.otros h4{
+  background-image: none;
+  background-color: var(--gris-02);
+}
+
+.otros h4:focus{
+  background-color: var(--color-01-light);
+  color: white;
+}
+
+.subseccion h4::before{
+  font-family: var(--icono);
+  display: inline-block;
+  padding-right: 0.5em;
+  font-weight: normal;
+}
+.formatos h4::before{
+  content: '\f044';  
+}
+.procedimientos h4::before{
+  content: '\f0cb';  
+}
+
+h4 + .lista,
+h3 + .subseccion .lista {
+  overflow: hidden;
+  height: 0px;
+  max-height: 2em;
+  transition: all ease .5s;
+}
+
+.rojo a,
+.rojo{
+  color: red !important;
+  background-color: yellow !important;
+}
+
+h4:focus + .lista,
+h3:focus + .subseccion .lista,
+.esconde:checked ~ .seccion .lista {
+  height: 100%;
+  max-height: 300vh;
+  transition: all ease 1s;
+}
+
+h4 + .lista.open,
+h3 + .subseccion .lista.open,
+.lista.open {
+  height: 100%;
+  max-height: 300vh;
+  transition: all ease 1s;
+}
+
+hr{
+  display: block;
+  margin: 2em;
+  margin: 6vmin 2em;
+  border: 1px dashed var(--color-01-light);
+}
+
+.menu hr{
+  margin: 1em;
+}
+
+@media (min-width: 720px) {
+  body{
+    --w-menu: 20rem;
+    --h-navbar: 5rem;
+  }
+  .topbar{
+    background-color: var(--blanco-02);
+  }
+  .logo{    
+    width: var(--w-menu);
+  }
+  .logo span{
+    font-size: 1.8em;
+  }
+  .topbar{
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .menu.top{
+    width: calc(100% - var(--w-menu));
+    min-width: calc(100% - var(--w-menu));
+  }
+  .titulo-seccion{
+    font-size: 1.3em;
+  }
+  .menu.lateral{
+    text-align: left;
+  }
+  .menu label{
+    font-size: 1rem;
+  }
+  .menu label::before{
+    padding-left: initial;
+  }
+  .menu.lateral a{
+    max-height: 2.5rem;
+    padding: 0.8rem 1rem;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .menu.lateral a:not([href*="car"]):not([href*="reg"]):not([href*="man"])
+  {
+    font-size: 0.9rem;
+  }
+  .menu.lateral a[href*="car"], .menu.lateral a[href*="reg"], .menu.lateral a[href*="man"]{
+    font-size: 0.9rem;
+  }
+
+  .menu.lateral a[href*="car"] b,
+  .menu.lateral a[href*="reg"] b,
+  .menu.lateral a[href*="man"] b
+  {
+    font-weight: normal;
+  }
+}
+@media (min-width: 980px) {
+  .subseccion {
+    width: 45%;
+    min-width: 36em;
+    max-width: 45em;
+    margin: 0 3vmin;
+  }
+  .lista {
+    margin: 0 1em;
+    padding-bottom: 1.5em;
+  }
+  .lista a {
+    font-size: 1em;
+  }
+  .lista b {
+    display: inline-block;
+  }
+  h4:focus + .lista,
+  h3:focus + .subseccion .lista{
+    max-height: 200vh;
+  }
+  
+  img.zoom {
+    width: 350px;
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+	.transition {
+		-webkit-transform: scale(1.8); 
+		-moz-transform: scale(1.8);
+		-o-transform: scale(1.8);
+		transform: scale(1.8);
+	}
+}
+  

@@ -1,0 +1,846 @@
+var Codigo;
+var Codigo_;
+var Codigo2;
+var Codigo3;
+$(document).ready(function(){//cuando este lista la página
+    $('#tblOsOrd tbody').on('click','tr', function(event){
+     //$(this).toggleClass("selected");
+      Codigo = $(this).find('td:first').html();
+      Codigo2 = $(this).find('td:nth-child(5)').html();
+      Codigo3 = $(this).find('td:nth-child(6)').html();
+      $('td',this).addClass('selected');
+      $(this).siblings().find('td').removeClass('selected');
+      //alert("holaaa21"+Codigo2+"holax2"+Codigo3);
+      //alert("holaaa",Codigo2);
+    });
+});
+//alert("fecha ini",Codigo2);
+var tres = document.getElementById('CodEmpleados').value = Codigo;
+var cuatro = document.getElementById('fec_ini').value = Codigo2;
+var cinco = document.getElementById('fec_fin').value = Codigo3;
+
+$(document).ready(function(){//cuando este lista la página
+    $('#tblOsOrd_ tbody').on('click','tr', function(event){
+     //$(this).toggleClass("selected");
+      Codigo_ = $(this).find('td:first').html();
+      $('td',this).addClass('selected');
+      $(this).siblings().find('td').removeClass('selected');
+      
+    });
+});
+var cuatro = document.getElementById('cod_guar').value = Codigo_;
+
+
+function llenaGrid(){
+    dato = document.getElementById('TiBen').value;
+    dato2 = document.getElementById('filFecha').value;
+    autoridad = document.getElementById('CodAuts').value;
+
+    //alert(datos);
+    alert(dato);
+    alert(dato2);
+  alert("Autoridad ->>" + autoridad);
+    axios({
+        method:'GET',
+        url:'../Ctr/ctrAutorizacion.php?opc='+dato+'&fecha='+dato2+'&opcs='+autoridad,
+        responseType:'json'
+    }).then(res=>{
+        console.log(res.data);
+
+        if(isObject(res.data)){
+            this.osOrd = res.data;
+            llenarTabla();
+        }else {
+            llenarTabla2();
+            alert('No hay registros');
+            /*document.getElementById('txtMostrar').innerHTML = "";
+            document.getElementById('txtMostrar').innerHTML += `
+                                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                        <strong> ! Alerta ¡ </strong>${res.data}
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                        </div>`;*/
+        }
+        
+    }).catch (error=>{
+        console.error(error);
+    });
+}
+
+function llenarTabla2(){
+    $("#tblOsOrd_Vac tr").remove();
+    document.querySelector('#tblOsOrd_Vac thead').innerHTML +=
+        `<tr>
+            <th>Cod. Empleado</th>
+            <th>Nombre</th>
+            <th>Departamento</th>
+            <th>Fecha Sol.</th>
+            <th>Fecha Inicio</th>
+            <th>Fecha Fin</th>
+            <th>Accion</th>
+        </tr>`;
+}
+
+function llenarTabla()
+{
+    var algo = Codigo;
+    $("#tblOsOrd_Vac tr").remove();
+    document.querySelector('#tblOsOrd_Vac thead').innerHTML +=
+        `<tr>
+            <th>Cod. Empleado</th>
+            <th>Nombre</th>
+            <th>Departamento</th>
+            <th>Fecha Sol.</th>
+            <th>Fecha Inicio</th>
+            <th>Fecha Fin</th>
+            <th>Accion</th>
+        </tr>`;
+    
+    for(let i=0; i <osOrd.length; i++){
+        var cod = osOrd[i][0].Nombre;
+        document.querySelector('#tblOsOrd_Vac tbody').innerHTML +=
+        `<tr>
+                <td>${osOrd[i][0].codEmpleado}</td>
+                <td>${osOrd[i][0].Nombre}</td>
+                <td>${osOrd[i][0].tDep}</td>
+                <td>${osOrd[i][0].Solicitud.date.substring(0,10)}</td>
+                <td>${osOrd[i][0].fecIni.date.substring(0,10)}</td>
+                <td>${osOrd[i][0].fecFin.date.substring(0,10)}</td>
+                <td><button id="modAut2" data-toggle="modal" data-target="#Aut2" type="button" class="btn btn-warning" onClick="seleccionar()">Autorizar</button></td>
+                <br><br>
+                <td><button id="modAut2" data-toggle="modal" data-target="#Aut2" type="button" class="btn btn-danger" onClick="seleccionarN()">Negar</button></td>
+         </tr>`;
+    }
+    //onClick="updSolicitud(${cod})"
+    
+}
+
+function isObject(val)
+ {
+    if (val === null)
+    {
+        return false;
+    }
+      return ( (typeof val === 'function') || (typeof val === 'object'));
+}
+
+function upsAut(){
+   // var FecIni;
+    autoridad = document.getElementById('CodAuts').value;
+    CodEmpleado: document.getElementById('CodEmpleados').value = Codigo;
+    FecIni: document.getElementById('fec_ini').value = Codigo2;
+    FecFin: document.getElementById('fec_fin').value = Codigo3; 
+
+    tem = Codigo2.split('-');
+
+    tem2 = new Date(tem[0],tem[1]-1,tem[2]);
+
+    temp = Codigo3.split('-');
+    temp2 = new Date(temp[0],temp[1]-1,temp[2]);
+    var Dt = (temp2.getDate() - tem2.getDate())+1;
+   // alert(Dt);
+    /*let usuario ={
+        CodEmpleados: document.getElementById('CodEmpleados').value = Codigo,
+        filFecha: document.getElementById('filFecha').value,
+        firmaG: "1",
+        fecA: document.getElementById('fecA').value
+      };
+    console.log("Usuario a Actualizar: ",usuario);
+*/
+    axios({
+        method:'Post',
+        url:'../Ctr/ctrActualizacion.php?opc='+autoridad,
+        data: {
+            CodEmpleado: document.getElementById('CodEmpleados').value = Codigo,
+            FechaSol: document.getElementById('filFecha').value,
+            firmaG: "1",
+            FechaA: document.getElementById('fecA').value,
+            dias : Dt
+        }
+    }).then(res=>{
+        console.log(res.data);
+        llenaGrid_a();
+    }).catch (error=>{
+        console.log(temp2.value);
+        console.error(error);
+
+    });
+    
+}
+
+function upsAutN(){
+    autoridad = document.getElementById('CodAuts').value;
+    CodEmpleado: document.getElementById('CodEmpleados').value = Codigo;
+    
+    axios({
+        method:'Post',
+        url:'../Ctr/ctrActualizacion.php?opc='+autoridad,
+        data: {
+            CodEmpleado: document.getElementById('CodEmpleados').value = Codigo,
+            FechaSol: document.getElementById('filFecha').value,
+            firmaG: "4",
+            FechaA: document.getElementById('fecA').value
+        }
+    }).then(res=>{
+        console.log(res.data);
+        llenaGrid_a();
+    }).catch (error=>{
+        console.error(error);
+    });
+    
+}
+
+function seleccionar(){
+    let usuario ={
+        CodEmpleado: document.getElementById('CodEmpleados').value = Codigo,
+        FechaSol: document.getElementById('filFecha').value
+      };
+    console.log("Usuario a Actualizar: ",usuario);
+    
+}
+
+function seleccionarN(){
+    let usuario ={
+        CodEmpleado: document.getElementById('CodEmpleados').value = Codigo,
+        FechaSol: document.getElementById('filFecha').value
+      };
+    console.log("Usuario a Actualizar: ",usuario);
+    
+}
+
+function llenaGrid_a(){
+    dato = document.getElementById('TiBen').value;
+    dato2 = document.getElementById('filFecha').value;
+    autoridad = document.getElementById('CodAuts').value;
+
+    document.querySelector("#tblOsOrd tr").innerHTML="";
+    
+    axios({
+        method:'GET',
+        url:'../Ctr/ctrAutorizacion.php?opc='+dato+'&fecha='+dato2+'&opcs='+autoridad,
+        responseType:'json'
+    }).then(res=>{
+        console.log(res.data);
+
+        if(isObject(res.data)){
+            this.osOrd = res.data;
+            llenarTabla();
+        }else {
+            llenarTabla2();
+            alert('No hay registros');
+            /*document.getElementById('txtMostrar').innerHTML = "";
+            document.getElementById('txtMostrar').innerHTML += `
+                                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                        <strong> ! Alerta ¡ </strong>${res.data}
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                        </div>`;*/
+        }
+        
+    }).catch (error=>{
+        console.error(error);
+    });
+}
+
+///////////////////////////////////Llenar seguimiento///////////////////////////////////////////////
+
+function llenarStatos(){
+	axios({
+		method: 'GET',
+		url: '../Ctr/ctrSeguimiento.php',
+		responseType:'json'
+	}).then(res=>{
+		console.log(res.data);
+	}).catch(error=>{
+		console.error(error);
+	});
+}
+
+function solEstadoVac(){
+	let usuarios = {
+		ValorOpc: document.getElementById('btnEsVac').value,
+		cod: document.getElementById('CodEmEs').value
+		
+	};
+	
+	usuario = document.getElementById('CodEmEs').value;
+
+	console.log('Usuario a guardar', usuarios)
+	
+	/*axios({
+        method: 'GET',
+
+        url: '../Ctr/ctrSeguimiento.php?curp='+ usuario+'&opc=1',
+        responseType : 'json'
+    }).then(res=>{
+		this.nom = res.data;
+		
+        //console.log(nom);
+		
+		
+    }).catch(error=>{
+        console.error(error);
+    });*/	
+	
+	
+	axios({
+        method:'GET',
+        url:'../Ctr/ctrSeguimiento.php?curp='+ usuario+'&opc=1',
+        responseType:'json'
+    }).then(res=>{
+        console.log(res.data);
+
+        if(isObject(res.data)){
+            this.osOrdE_ = res.data;
+            llenarTablaEstado();
+        }else {
+            //llenarTabla2();
+			llenarTablaEstado();
+            alert('No hay registros');
+        }
+        
+    }).catch (error=>{
+        console.error(error);
+    });
+}
+
+function llenarTablaEstado()
+{
+    var algo = Codigo;
+    $("#tblStatus tr").remove();
+    document.querySelector('#tblStatus thead').innerHTML +=
+        `<tr>
+            <th>Fecha Solicitud</th>
+            <th>Beneficio</th>
+            <th>Gerente</th>
+            <th>RH</th>
+            <th>Gerencia General</th>
+        </tr>`;
+    
+    for(let i=0; i <osOrdE_.length; i++){
+        //var cod = osOrd[i][0].Nombre;
+        document.querySelector('#tblStatus tbody').innerHTML +=
+        `<tr>
+                <td>${osOrdE_[i][0].FechaSol}</td>
+                <td>${osOrdE_[i][0].tBen}</td>
+                <td>${osOrdE_[i][0].firmaG}</td>
+                <td>${osOrdE_[i][0].firmaRh}</td>
+                <td>${osOrdE_[i][0].firmaGG}</td>
+         </tr>`;
+    }
+}
+
+function solEstadoGuar(){
+	let usuario = {
+		ValorOpc: document.getElementById('btnEsGuar').value,
+		cod: document.getElementById('CodEmEs').value
+	};
+
+	console.log('Usuario a guardar', usuario)
+}
+
+function llenarEst(){
+	
+}
+////////////////////////////////////////////////GUARDIAS////////////////////////////////////////////
+function llenaGridG(){
+    autoridad = document.getElementById('CodAuts').value;
+
+    axios({
+        method:'GET',
+        url:'../Ctr/ctrAutorizacion.php?opc='+autoridad+'&opcs=4',
+        responseType:'json'
+    }).then(res=>{
+        console.log(res.data);
+
+        if(isObject(res.data)){
+            this.osOrd_ = res.data;
+            llenarTablaG();
+        }else {
+            //llenarTabla2();
+            alert('No hay registros');
+            /*document.getElementById('txtMostrar').innerHTML = "";
+            document.getElementById('txtMostrar').innerHTML += `
+                                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                        <strong> ! Alerta ¡ </strong>${res.data}
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                        </div>`;*/
+        }
+        
+    }).catch (error=>{
+        console.error(error);
+    });
+}
+
+function llenarTablaG()
+{
+    var algo = Codigo;
+    $("#tblOsOrd_ tr").remove();
+    document.querySelector('#tblOsOrd_ thead').innerHTML +=
+        `<tr>
+            <th>Cod. Empleado</th>
+            <th>Nombre</th>
+            <th>Departamento</th>
+            <th>Fecha Sol.</th>
+            <th>Fecha Inicio</th>
+            <th>Accion</th>
+        </tr>`;
+    
+    for(let i=0; i <osOrd_.length; i++){
+        //var cod = osOrd[i][0].Nombre;
+        document.querySelector('#tblOsOrd_ tbody').innerHTML +=
+        `<tr>
+                <td>${osOrd_[i][0].codEmpleado}</td>
+                <td>${osOrd_[i][0].Nombre}</td>
+                <td>${osOrd_[i][0].tDep}</td>
+                <td>${osOrd_[i][0].Solicitud}</td>
+                <td>${osOrd_[i][0].fecIni}</td>
+                <td><button id="modAut2" data-toggle="modal" data-target="#AutGu" type="button" class="btn btn-warning" onClick="seleccionarG()">Autorizar</button></td>
+                <br><br>
+                <td><button id="modAut2" data-toggle="modal" data-target="#AutGu" type="button" class="btn btn-danger" onClick="seleccionarNG()">Negar</button></td>
+         </tr>`;
+    }
+}
+
+function seleccionarG(){
+    /*let usuario ={
+        CodEmpleado: document.getElementById('cod_guar').value = Codigo_,
+        FechaSol: document.getElementById('filFecha').value
+      };
+    console.log("Usuario a Actualizar: ",usuario);
+    */
+	let usuario ={
+        CodEmpleado: document.getElementById('cod_guar').value = Codigo_,
+        FechaSol: document.getElementById('filFecha').value
+      };
+    console.log("Usuario a Actualizar: ",usuario);
+}
+
+//Para indicar que es positiva la guardia
+function upsAut2(){
+    /*autoridad = document.getElementById('CodAuts').value;
+    CodEmpleado: document.getElementById('cod_guar').value;
+    var diasT = document.getElementById('VacTotal').value;
+    if(diasT == 6){
+        diasN = 7;
+    }
+	
+	console.log(CodEmpleado);
+    axios({
+        method:'Post',
+        url:'../Ctr/ctrActualizacion.php?opc=4',
+        data: {
+            CodEmpleado: document.getElementById('cod_guar').value = Codigo_,
+            FechaSol: "2021-02-10",
+            firmaG: "1",
+            FechaA: diasN
+        }
+    }).then(res=>{
+        console.log(res.data);
+        llenaGrid_aG();
+    }).catch (error=>{
+        console.error(error);
+    });
+
+*/    
+	autoridad = document.getElementById('CodAuts').value;
+    CodEmpleado: document.getElementById('cod_guar').value = Codigo_;
+    var diasT = document.getElementById('VacTotal').value;
+    if(diasT == 6){
+        diasN = 7;
+    }
+	
+    axios({
+        method:'Post',
+        url:'../Ctr/ctrActualizacion.php?opc=4',
+        data: {
+            CodEmpleado: document.getElementById('cod_guar').value = Codigo_,
+            FechaSol: "2021-02-10",
+            firmaG: "1",
+            FechaA: diasN
+        }
+    }).then(res=>{
+        console.log(res.data);
+        llenaGrid_aG();
+    }).catch (error=>{
+        console.error(error);
+    });
+	
+}
+
+function llenaGrid_aG(){
+    dato = document.getElementById('TiBen').value;
+    dato2 = document.getElementById('filFecha').value;
+    autoridad = document.getElementById('CodAuts').value;
+
+    document.querySelector("#tblOsOrd_ tr").innerHTML="";
+
+    axios({
+        method:'GET',
+        url:'../Ctr/ctrAutorizacion.php?opc='+autoridad+'&opcs=4',
+        responseType:'json'
+    }).then(res=>{
+        console.log(res.data);
+
+        if(isObject(res.data)){
+            this.osOrd_ = res.data;
+            llenarTablaG();
+        }else {
+            //llenarTabla2();
+            alert('No hay registros');
+            /*document.getElementById('txtMostrar').innerHTML = "";
+            document.getElementById('txtMostrar').innerHTML += `
+                                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                        <strong> ! Alerta ¡ </strong>${res.data}
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                        </div>`;*/
+        }
+        
+    }).catch (error=>{
+        console.error(error);
+    });
+}
+
+function seleccionarNG(){
+    let usuario ={
+        CodEmpleado: document.getElementById('cod_guar').value = Codigo_,
+        FechaSol: document.getElementById('filFecha').value
+      };
+    console.log("Usuario a Actualizar: ",usuario);
+    
+}
+
+//Indicar que la guardia es negada
+function upsAutN2(){
+    autoridad = document.getElementById('CodAuts').value;
+    CodEmpleado: document.getElementById('cod_guar').value = Codigo_;
+    
+    axios({
+        method:'Post',
+        url:'../Ctr/ctrActualizacion.php?opc=4',
+        data: {
+            CodEmpleado: document.getElementById('cod_guar').value = Codigo_,
+            FechaSol: "2021-02-10",
+            firmaG: "4",
+            FechaA: ""
+        }
+    }).then(res=>{
+        console.log(res.data);
+        llenaGrid_aG();
+    }).catch (error=>{
+        console.error(error);
+    });
+    
+}
+
+//////////////////////Cerrar sesión//////////////////////////////
+
+function exit(){
+    axios({
+        method:'GET',
+        url:'../Ctr/ctrLogin.php',
+        responseType:'json'
+    }).then(res=>{
+        console.log(res.data);
+        window.location.reload();
+    }).catch (error=>{
+        console.error(error);
+    });
+}
+
+
+/////////////////////GRID PRESTAMOS//////////////////////////////
+
+function llenarPres(){
+    
+    axios({
+        method:'GET',
+        url:'../Ctr/ctrPrestamos.php',
+        responseType:'json'
+    }).then(res=>{
+        console.log(res.data);
+
+        if(isObject(res.data)){
+            this.osOrd = res.data;
+            llenarTablaPres();
+        }else {
+            //llenarTabla2();
+            alert('No hay registros');
+        }
+        
+    }).catch (error=>{
+        console.error(error);
+    });
+}
+
+function llenarTablaPres()
+{
+    var algo = Codigo;
+    $("#tblOsOrdPres tr").remove();
+    document.querySelector('#tblOsOrdPres thead').innerHTML +=
+        `<tr>
+            <th>Cod. Empleado</th>
+            <th>Fecha Sol.</th>
+            <th>Nombre</th>
+            <th>Cod.Área</th>
+            <th>DescA</th>
+            <th>Cod. SubÁrea</th>
+            <th>DescSa</th>
+            <th>CodPuesto</th>
+            <th>Sueldo</th>
+            <th>Cantidad Solicitada</th>
+            <th>Motivo</th>
+            <th>Acción</th>
+        </tr>`;
+    
+    for(let i=0; i <osOrd.length; i++){
+        //var cod = osOrd[i][0].Nombre;
+        document.querySelector('#tblOsOrdPres tbody').innerHTML +=
+        `<tr>
+                <td>${osOrd[i][0].CodEmpleado}</td>
+                <td>${osOrd[i][0].Fecha_Solicitud.date.substring(0,10)}</td>
+                <td>${osOrd[i][0].Nombre}</td>
+                <td>${osOrd[i][0].CodArea}</td>
+                <td>${osOrd[i][0].DescA}</td>
+                <td>${osOrd[i][0].CodSubArea}</td>
+                <td>${osOrd[i][0].DescSa}</td>
+                <td>${osOrd[i][0].CodPuesto}</td>
+                <td>${osOrd[i][0].Sueldo}</td>
+                <td>${osOrd[i][0].CantidadSolicitada}</td>
+                <td>${osOrd[i][0].Motivo}</td>
+                <td><button value="1" id="modAtt" data-toggle="modal" data-target="#autPres" type="button" class="btn btn-warning" onClick="seleccionarPres()">Autorizar</button></td>
+                <br><br>
+                <td><button value="0" id="" data-toggle="modal" data-target="#autPres" type="button" class="btn btn-danger" onClick="SeleccionarPresN()">Negar</button></td>
+         </tr>`;
+    }
+}
+
+
+function vaciarGrid() {
+    document.querySelector("#tblOsOrdPres tr").innerHTML="";
+    //$("#tblOsOrdPres tr").remove();
+
+    for(let i=0; i <osOrd.length; i++){
+        //var cod = osOrd[i][0].Nombre;
+        document.querySelector('#tblOsOrdPres tbody').innerHTML +=
+        `<tr>
+                <td>${osOrd[i][0].CodEmpleado}</td>
+                <td>${osOrd[i][0].Fecha_Solicitud.date.substring(0,10)}</td>
+                <td>${osOrd[i][0].Nombre}</td>
+                <td>${osOrd[i][0].CodArea}</td>
+                <td>${osOrd[i][0].DescA}</td>
+                <td>${osOrd[i][0].CodSubArea}</td>
+                <td>${osOrd[i][0].DescSa}</td>
+                <td>${osOrd[i][0].Sueldo}</td>
+                <td>${osOrd[i][0].CantidadSolicitada}</td>
+                <td>${osOrd[i][0].Motivo}</td>
+                <td><button id="" data-toggle="modal" data-target="#" type="button" class="btn btn-warning" onClick="">Autorizar</button></td>
+                <br><br>
+                <td><button id="" data-toggle="modal" data-target="#" type="button" class="btn btn-danger" onClick="">Negar</button></td>
+         </tr>`;
+    }
+    alert("Entro a limpiar el grid");
+}
+
+function updateSolPrestamo(){
+    let usuario ={
+        CodEmpleado: document.getElementById('PresCod').value = codi,
+        FechaSol: document.getElementById('fecPres').value = Codi1,
+        Area: document.getElementById('PresA').value = Codi2,
+        Sub: document.getElementById('PresSA').value = Codi3,
+        Puesto: document.getElementById('PresPues').value = Codi4,
+        CantidadS: document.getElementById('PresMnSol').value = Codi5,
+        fechaAut: document.getElementById('FecSol_').value,
+        montoAut: document.getElementById('cantAut').value,
+        montoDsc: document.getElementById('descuentoAut').value,
+        Estatus: "1",
+        DescNom: "1",
+        EstatusP: "A"
+      };
+    axios({
+        method:'Post',
+        url:'../Ctr/ctrPrestamo.php',
+        data: {
+            CodEmpleado: document.getElementById('PresCod').value = codi,
+            CantidadAutorizada: document.getElementById('cantAut').value,
+            Descuento: document.getElementById('descuentoAut').value,
+            Autorizado: "1",
+            FechaAutorizacion: document.getElementById('FecSol_').value,
+            Estatus: "1",
+            FechaCaptura: document.getElementById('FecSol_').value,
+            opc: "0"            
+        }
+    }).then(res=>{
+        console.log(res.data);
+        insertPrestamo();
+    }).catch (error=>{
+        console.error(error);
+    });
+    
+}
+
+function insertPrestamo(){
+    let usuario ={
+        FechaExpedicion: document.getElementById('FecSol_').value,
+            FechaAutorizacion: document.getElementById('FecSol_').value,
+            CodEmpleado: document.getElementById('PresCod').value = codi,
+            CodArea: document.getElementById('PresA').value = Codi2,
+            CodSubArea: document.getElementById('PresSA').value = Codi3,
+            CodPuesto: document.getElementById('PresPues').value = Codi4,
+            Sueldo: document.getElementById('PresPues').value,
+            MontoSolicitado: document.getElementById('PresMnSol').value = Codi5,
+            Monto: document.getElementById('cantAut').value,
+            Descuento: document.getElementById('descuentoAut').value,
+            DescViaNomina: "1",            
+            Estatus: "A",
+            MontoPagado: "0"   
+    }
+    console.log("Usuario a Actualizar: ",usuario);
+
+    axios({
+        method:'Post',
+        url:'../Ctr/ctrPres.php',
+        data: {
+            FechaExpedicion: document.getElementById('FecSol_').value,
+            FechaAutorizacion: document.getElementById('FecSol_').value,
+            CodEmpleado: document.getElementById('PresCod').value = codi,
+            CodArea: document.getElementById('PresA').value = Codi2,
+            CodSubArea: document.getElementById('PresSA').value = Codi3,
+            CodPuesto: document.getElementById('PresPues').value = Codi4,
+            Sueldo: document.getElementById('SuelPres').value = Codi6,
+            MontoSolicitado: document.getElementById('PresMnSol').value = Codi5,
+            Monto: document.getElementById('cantAut').value,
+            Descuento: document.getElementById('descuentoAut').value,
+            DescViaNomina: "1",        
+            MontoPagado: "0"
+        }
+    }).then(res=>{
+        console.log(res.data);
+        
+    }).catch (error=>{
+        console.error(error);
+    });
+    
+}
+
+//-----Seleccionar elementos de la tabla de solicitudes de prestamo-------\\\\\\\\\\
+var codi;
+var Codi1;
+var Codi2;
+var Codi3;
+var Codi4;
+var Codi5;
+var Codi6;
+$(document).ready(function(){//cuando este lista la página
+    $('#tblOsOrdPres tbody').on('click','tr', function(event){
+     //$(this).toggleClass("selected");
+      codi = $(this).find('td:first').html();
+      Codi1 = $(this).find('td:nth-child(2)').html();
+      Codi2 = $(this).find('td:nth-child(4)').html();
+      Codi3 = $(this).find('td:nth-child(6)').html();
+      Codi4 = $(this).find('td:nth-child(8)').html();
+      Codi5 = $(this).find('td:nth-child(10)').html();
+      Codi6 = $(this).find('td:nth-child(9)').html();
+      $('td',this).addClass('selected');
+      $(this).siblings().find('td').removeClass('selected');
+      //alert("holaaa21"+Codigo2+"holax2"+Codigo3);
+      //alert("holaaa",Codigo2);
+    });
+});
+var one = document.getElementById('cod_guar').value = codi;
+var two = document.getElementById('fecPres').value = Codi1;
+var three = document.getElementById('PresA').value = Codi2;
+var four = document.getElementById('PresSA').value = Codi3;
+var five = document.getElementById('PresPues').value = Codi4;
+var six = document.getElementById('PresMnSol').value = Codi5;
+var seven = document.getElementById('SuelPres').value = Codi6;
+
+
+function seleccionarPres(){
+    let usuario ={
+        CodEmpleado: document.getElementById('PresCod').value = codi,
+        FechaSol: document.getElementById('fecPres').value = Codi1,
+        Area: document.getElementById('PresA').value = Codi2,
+        Sub: document.getElementById('PresSA').value = Codi3,
+        Puesto: document.getElementById('PresPues').value = Codi4,
+        CantidadS: document.getElementById('PresMnSol').value = Codi5,
+      };
+    console.log("Usuario a Actualizar: ",usuario);  
+}
+
+////////////////NEGACION 
+function SeleccionarPresN(){
+    let usuario ={
+        CodEmpleado: document.getElementById('PresCod').value = codi,
+        FechaSol: document.getElementById('fecPres').value = Codi1,
+        Area: document.getElementById('PresA').value = Codi2,
+        Sub: document.getElementById('PresSA').value = Codi3,
+        Puesto: document.getElementById('PresPues').value = Codi4,
+        CantidadS: document.getElementById('PresMnSol').value = Codi5,
+      };
+    console.log("Usuario a Actualizar: ",usuario);  
+}
+
+function updateSolPrestamoN(){
+    let usuario ={
+        CodEmpleado: document.getElementById('PresCod').value = codi,
+        FechaSol: document.getElementById('fecPres').value = Codi1,
+        Area: document.getElementById('PresA').value = Codi2,
+        Sub: document.getElementById('PresSA').value = Codi3,
+        Puesto: document.getElementById('PresPues').value = Codi4,
+        CantidadS: document.getElementById('PresMnSol').value = Codi5,
+        fechaAut: document.getElementById('FecSol_').value,
+        montoAut: document.getElementById('cantAut').value,
+        montoDsc: document.getElementById('descuentoAut').value,
+        Estatus: "1",
+        DescNom: "1",
+        EstatusP: "A"
+      };
+    axios({
+        method:'Post',
+        url:'../Ctr/ctrPrestamo.php',
+        data: {
+            CodEmpleado: document.getElementById('PresCod').value = codi,
+            CantidadAutorizada: "0",
+            Descuento: "0",
+            Autorizado: "3",
+            FechaAutorizacion: "",
+            Estatus: "2",
+            FechaCaptura: "",
+            opc: "1"            
+        }
+    }).then(res=>{
+        console.log(res.data);
+        insertPrestamoN();
+    }).catch (error=>{
+        console.error(error);
+    });
+    
+}
+
+function insertPrestamoN(){
+    
+    axios({
+        method:'Post',
+        url:'../Ctr/ctrPres.php',
+        data: {
+            FechaExpedicion: document.getElementById('FecSol_').value,
+            FechaAutorizacion: document.getElementById('FecSol_').value,
+            CodEmpleado: document.getElementById('PresCod').value = codi,
+            CodArea: document.getElementById('PresA').value = Codi2,
+            CodSubArea: document.getElementById('PresSA').value = Codi3,
+            CodPuesto: document.getElementById('PresPues').value = Codi4,
+            Sueldo: document.getElementById('SuelPres').value = Codi6,
+            MontoSolicitado: document.getElementById('PresMnSol').value = Codi5,
+            Monto: document.getElementById('cantAut').value,
+            Descuento: document.getElementById('descuentoAut').value,
+            DescViaNomina: "1",        
+            MontoPagado: "0",
+            opc :"1"
+        }
+    }).then(res=>{
+        console.log(res.data);
+        
+    }).catch (error=>{
+        console.error(error);
+    });
+    
+}

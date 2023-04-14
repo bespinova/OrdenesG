@@ -1,0 +1,78 @@
+<?php
+include_once("../ClsParam.php");
+include_once("../ClsMsSql.php");
+require("../core.php");
+
+session_start();
+
+
+class modRevision{
+  private $CodRevision;
+  private $CodContenido;
+  private $FechaRevision;
+  private $Observaciones;
+  private $CodAuditor;
+
+  private $ArrDat;
+  var $conDb;
+  var $objParam;
+
+
+  function __construct($CodRevision,$CodContenido,$FechaRevision,$Observaciones,$CodAuditor)
+  {
+    $this->CodRevision = $CodRevision;
+    $this->CodContenido = $CodContenido;
+    $this->FechaRevision = $FechaRevision;
+    $this->Observaciones = $Observaciones;
+    $this->CodAuditor = $CodAuditor;
+
+
+    $this->ArrDat = array($this->CodRevision,
+                          $this->CodContenido,
+                          $this->FechaRevision,
+                          $this->Observaciones,
+                          $this->CodAuditor
+                          );
+
+    $this->objParam = new ClsParam($_SESSION['path']);
+    $this->conDb = new ClsmsSql($_SESSION['Servidor'],$_SESSION['Usuario'],$_SESSION['Datos'],$_SESSION['Passw']);
+
+    if ($this->conDb->Conextar() > 0){
+      return "Error al conectarse en la base de datos";
+    }
+  }
+
+
+  public function muestraRubrosConProyc($varPryc){
+    $strSlc = "SELECT PRCR.CodRubro,Descripcion from PrCatRubros as PRCR"
+    . " INNER JOIN PrContenidoProyecto as PRCP ON PRCP.CodRubro = PRCR.CodRubro"
+    . " WHERE seRealiza = 1 AND PRCP.CodProyecto = '".$varPryc."'  ";
+    $rsp = $this->conDb->loadQueryARR_Asoc($strSlc);
+     if (count($rsp) > 0){
+         return $rsp;
+     }
+    else{
+      return 'No hay registros que mostrar.';
+    }
+  }
+
+  public function muestraRvsnPryct($varPrcyRvsn){
+    $strSlc = "SELECT prRvson.CodRevision,Observaciones,Comentario,FechaRevision"
+		          . " FROM PrRevision AS prRvson"
+		          . " INNER JOIN PrRevsionImg AS prRvsonImg ON prRvson.CodRevision = prRvsonImg.CodRevision"
+		          . " INNER JOIN PrContenidoProyecto AS prContenPryct ON prContenPryct.CodContenido = prRvson.CodContenido"
+		          . " WHERE prContenPryct.CodProyecto = '".$varPrcyRvsn."' ";
+    $rsp = $this->conDb->loadQueryARR_Asoc($strSlc);
+     if (count($rsp) > 0){
+         return $rsp;
+     }
+    else{
+      return 'No hay registros que mostrar.';
+    }
+  }
+
+
+
+
+}
+ ?>
