@@ -173,7 +173,7 @@ class modprArmaProyecto {
         }
        else
            return  $rsp;
-    }    
+    }
     public function obtener_RubrosPrSlc($codProyecto)
     {
        $strRub = "select P.CodRubro,R.Descripcion,P.ValorEnProyecto,
@@ -234,13 +234,29 @@ class modprArmaProyecto {
            return  $rsp;
     }
 
+    public function Obtener_RubroSlc($codProyecto,$codRubro)
+      {
+        $strSRub = "select  isnull(FechaInicial,'') as FechaInicial ,isnull(FechaFinal,'') as FechaFinal,
+                    isnull(CosPresupuestado,0) as CosPresupuestado,isnull(CosReal,0) as CosReal
+                    from PrProyectoRubro where CodProyecto = '".$codProyecto."' and CodRubro = '".$codRubro."'";
+              $rsp = $this->conDb->loadQueryARR_Asoc($strSRub);
+          if (count($rsp) > 0)
+            return $rsp;
+          else
+            return  $rsp;
+     }
+
+
+
+
 
     public function Obtener_TareaRubSlc($codProyecto,$codRubro)
     {
-       $strTr = "select Pc.CodTarea,Tr.Descripcion,Pc.ValorEnRubro,Pc.ValorAvance
+       $strTr = "select Pc.CodTarea,Tr.Descripcion,Pc.ValorEnRubro,Pc.ValorAvance,
+                  isnull(FecInicialTra,'') as as FecInicialTra,isnull(FecFinalTra,'') as FecFinalTra
                   from PrContenidoProyecto Pc Join PrCatTareaRubro Tr on Pc.CodRubro = Tr.CodRubro_fk and
                                                                 Pc.CodTarea = Tr.CodTarea
-                  where Pc.CodProyecto = '".$codProyecto."' and Pc.CodRubro = '".$codRubro."'";
+                         where Pc.CodProyecto = '".$codProyecto."' and Pc.CodRubro = '".$codRubro."' and Estatus = 'A'";
        $rsp = $this->conDb->loadQueryARR_Asoc($strTr);
 
         if (count($rsp) > 0)
