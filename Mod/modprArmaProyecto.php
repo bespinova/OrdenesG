@@ -246,8 +246,42 @@ class modprArmaProyecto {
             return  $rsp;
      }
 
-
-
+     public function Update_RubroSlc($CodProy, $CodRub, $FechaIni, $FechaFin,$CosPres)
+     {
+       $strUp = "Update PrProyectoRubro Set FechaInicial = '".$FechaIni."', FechaFinal = '".$FechaFin."',
+                CosPresupuestado = ".$CosPres.
+                " where CodProyecto = '".$CodProy."' and CodRubro = '".$CodRub."'";
+          if($this->conDb->QueryDml($strUp) == 0)
+              $dv =  "ERROR al actualizar la tabla OSUniMaqPesada";
+          else
+              $dv = "Registro Actualizado";
+          return $dv;
+        }
+public function Update_Tareas($CodProy, $CodRub, $Tareas)
+{
+  $dv = "";
+  $Fini = "";
+  $Ffin = "";
+  for($j = 0; $j < count($Tareas); $j++)}{
+    if(strlen($Tareas[$j]['FechaInicial']) == 0)
+        $Fini = 'NULL';
+    else
+        $Fini = "'".$Tareas[$j]['FechaInicial']."'";
+    if(strlen($Tareas[$j]['FechaFinal']) == 0)
+        $Ffin = 'NULL';
+    else
+        $Ffin = "'".$Tareas[$j]['FechaFinal']."'";
+    $strUp = "Update PrContenidoProyecto set FecInicialTra = ".$Fini.
+              ",FecFinalTra = ".$Ffin.
+              " where  CodProyecto = '".$CodProy."' and CodRubro = '".$CodRub.
+              "' and CodTarea = '".$Tareas[$j]['Codigo']."'";
+    if($this->conDb->QueryDml($strUp) == 0)
+          $dv = $dv."ERROR al actualizar la tarea " . $Tareas[$j]['Codigo'] . "\n";
+    else
+          $dv = $dv." Tarea " . $Tareas[$j]['Codigo'] . " actualizada \n";
+}
+return $dv;
+}
 
 
     public function Obtener_TareaRubSlc($codProyecto,$codRubro)

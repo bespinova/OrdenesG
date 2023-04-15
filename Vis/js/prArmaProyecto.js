@@ -1,5 +1,6 @@
 var dato;
 var Rubro;
+var Proyecto;
 $(document).ready(function(){//cuando este lista la página
     $('#tblUNeg tbody').on('click','tr', function(event){
      //$(this).toggleClass("selected");
@@ -14,6 +15,56 @@ $(document).ready(function(){//cuando este lista la página
     lleCboUNeg();
     ObtenerProyectosT();
 });
+
+function SetFechaActual(tipo)
+{
+  var fecha = new Date(); //Fecha actual
+  fecha.setDate(fecha.getDate() - 365);
+  var mes = fecha.getMonth()+1; //obteniendo mes
+  var dia = fecha.getDate(); //obteniendo dia
+  var ano = fecha.getFullYear(); //obteniendo año
+  var hr = fecha.getHours();
+  var min = fecha.getMinutes();
+  var seg = fecha.getSeconds();
+  var dv = "";
+
+  if(dia<10)
+    dia='0'+dia; //agrega cero si el menor de 10
+
+  if(mes<10)
+    mes='0'+mes //agrega cero si el menor de 10
+
+
+  switch (tipo){
+
+    case 1 : dv = ano+"-"+mes+"-"+dia; break;
+    case 2 :
+      fecha.setDate(fecha.getDate()+365);
+      mes = fecha.getMonth()+1; //obteniendo mes
+      dia = fecha.getDate(); //obteniendo dia
+      ano = fecha.getFullYear();
+      if(dia<10)
+          dia='0'+dia; //agrega cero si el menor de 10
+      if(mes<10)
+          mes='0'+mes
+          dv = ano+"-"+mes+"-"+dia+ " "+hr+":"+min+":"+seg; break;
+
+    case 3 :
+      fecha.setDate(fecha.getDate()+365);
+      mes = fecha.getMonth()+1; //obteniendo mes
+      dia = fecha.getDate(); //obteniendo dia
+      ano = fecha.getFullYear();
+      if(dia<10)
+          dia='0'+dia; //agrega cero si el menor de 10
+      if(mes<10)
+          mes='0'+mes
+      dv =  ano+"-"+mes+"-"+dia;
+      break;
+}
+  return dv;
+}
+
+
 
 
 
@@ -272,6 +323,8 @@ function lleCboUNeg()
 
 function VerTareas(Rb,Pr,Dsc)
 {
+  Rubro = Rb;
+  Proyecto = Pr;
    document.querySelector('#Titulo').innerHTML = "Tareas del Rubro " + Dsc;
    axios({
         method:'GET',
@@ -285,8 +338,52 @@ function VerTareas(Rb,Pr,Dsc)
     }).catch (error=>{
         console.error(error);
     });
+}
+
+function EditConfigRubro(Rb, Pr, Dsc)
+{
+   Rubro = Rb;
+  Proyecto = Pr;
+  axios({
+    method:'GET',
+    url:'../Ctr/ctrprArmaProyecto.php?op=20&codProyecto='+Proyecto+'&codRubro='+Rubro,
+    responseType:'json'
+  }).then(res=>{
+    this.Tareas = res.data;
+    var Fec1 = (Tareas[0][0].FechaInicial.date.substring(0,4)== '1900')?SetFechaActual(3):Tareas[0][0].FechaInicial.date.substring(0,10);
+    var Fec2 =  (Tareas[0][0].FechaFinal.date.substring(0,4)== '1900')?SetFechaActual(3):Tareas[0][0].FechaFinal.date.substring(0,10);
+    document.getElementById('FechaIni').value = Fec1;
+    document.getElementById('FechaFin').value = Fec2;
+    document.getElementById('CantPres').value = Tareas[0][0].CosPresupuestado;
+    document.getElementById('CantReal').value = Tareas[0][0].CosReal;
+    document.getElementById('CantPres').disabled = (parseFloat(Tareas[0][0].CosPresupuestado) > 0) ? true : false;
+
+    $('#frmConfigRubro').modal('show');
+  }).catch (error=>{
+    console.error(error);
+  });
+}
 
 
+function UpdateConfigRubro()
+{
+  axios({
+    method:'PUT',
+    url:'../Ctr/ctrprArmaProyecto.php',
+    data: {
+      "Op":"221",
+      "CodProyecto":Proyecto,
+      "CodRubro":Rubro,
+      "FechaInicial":document.getElementById('FechaIni').value,
+      "FechaFinal":document.getElementById('FechaFin').value,
+      "CosPresupuestado":document.getElementById('CantPres').value
+    }
+  }).then(res=>{
+    $('#frmConfigRubro').modal('hide');
+  }).catch (error=>{
+    console.error(error);//// TODO: MODIFICAR ACA EL ERROE
+  });
+}
 }
 
 
@@ -321,7 +418,7 @@ function llenarTabla2()
             <th>Nombre</th>
             <th>Valor en Proyecto</th>
             <th>Estatus</th>
-            <th>Tareas</th>
+            <th colspan=2 > </th>
         </tr>`;
 
     for(let i=0; i < rubros.length; i++){
@@ -331,9 +428,11 @@ function llenarTabla2()
                 <td>${rubros[i][0].Descripcion}</td>
                 <td>${rubros[i][0].ValorEnProyecto}</td>
                 <td>${rubros[i][0].Estatus}</td>
-                <td><button class="btn btn-outline-success btn-sm" id="cmdVerTareas" type="button"
-                                      onclick="VerTareas('${rubros[i][0].CodRubro}','${dato}','${rubros[i][0].Descripcion}')">Ver Tareas</button></td>
-         </tr>`;
+                <td><button class="btn btn-outline-primary btn-sm" id="cmdConfigRubro" type="button"
+                      onclick="EditConfigRubro('${rubros[i][0].CodRubro}','${dato}','${rubros[i][0].Descripcion}')">Config. Rubro</button></td>
+                      <td><button class="btn btn-outline-success btn-sm" id="cmdVerTareas" type="button"
+                                      onclick="VerTareas('${rubros[i][0].CodRubro}','${dato}','${rubros[i][0].Descripcion}')">Conf. Tareas</button></td>
+                </tr>`;
     }
 }
 
@@ -347,15 +446,28 @@ function llenarTabla3()
             <th>Nombre</th>
             <th>Valor en Rubro</th>
             <th>Valor Avance</th>
+            <th>Fecha Inicial</th>
+            <th>Fecha Final</th>
         </tr>`;
  //falta modiciar la consuta y losc ampos correcotrs
     for(let i=0; i < Tareas.length; i++){
-        document.querySelector('#tblTareas tbody').innerHTML +=
+      var Fec1 = (Tareas[i][0].FecInicialTra.date.substring(0,4)== '1900')?'':Tareas[i][0].FecInicialTra.date.substring(0,10);
+      var Fec2 =  (Tareas[i][0].FecFinalTra.date.substring(0,4)== '1900')?'':Tareas[i][0].FecFinalTra.date.substring(0,10);
+
+      document.getElementById('FechaIni').value = Fec1;
+      document.getElementById('FechaFin').value = Fec2;
+
+      var F1 = '<input type="date" class="form-control" id="FechaIniTra" placeholder="Fecha" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" value = "'+Fec1+ '">';
+      var F2 = '<input type="date" class="form-control" id="FechaFinTra" placeholder="Fecha" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" value = "'+Fec2+ '">';
+
+      document.querySelector('#tblTareas tbody').innerHTML +=
         `<tr>
                 <td>${Tareas[i][0].CodTarea}</td>
                 <td>${Tareas[i][0].Descripcion}</td>
                 <td>${Tareas[i][0].ValorEnRubro}</td>
                 <td>${Tareas[i][0].ValorAvance}</td>
+                <td>${F1}</td>
+                <td>${F2}</td>
          </tr>`;
     }
 }
@@ -366,7 +478,87 @@ function llenarTabla3()
 
 
 
+function UpdateConfigTareas()
+{
+  var Tras1 = new Array();
+  $('#tblTareas tr').each(function(){
+    let txt1 =  $(this).find('Td').eq(0).text();
+    if(txt1.length > 0){
+      Tras = new Object();
+        Tras.Codigo = txt1;
+        Tras.Nombre = $(this).find('Td').eq(1).text();
+        Tras.ValRubro = $(this).find('Td').eq(2).text();
+        Tras.ValAvance = $(this).find('Td').eq(3).text();
+        Tras.FechaInicial = $(this).find('#FechaIniTra').html('FechaIniTra').val();
+        Tras.FechaFinal = $(this).find('#FechaFinTra').html('FechaFinTra').val();
+        Tras1.push(Tras);
+      }
+    });
 
+    var strJS = JSON.stringify({ ...Tras1 });
+    axios({
+      method:'PUT',
+      url:'../Ctr/ctrprArmaProyecto.php',
+      data: {
+        "Op":"222",
+        "CodProyecto":Proyecto,
+        "CodRubro":Rubro,
+        "Registros":strJS
+      }
+    }).then(res=>{
+
+      $('#frmVerTareas').modal('hide');
+      //           alert(res.data);
+
+    }).catch (error=>{
+      console.error(error);
+    });
+
+/* var arr = [ 'x', 'y', 'z' ];
+var json = { ...Tras };
+console.log(json);*/
+
+}
+
+/*
+function UpdateConfigTareas()
+{
+try{
+
+  var resume_table = document.getElementById("tblTareas");
+  //console.log(resume_table);
+  console.log(document.getElementById("tblTareas").rows);
+  console.log(document.getElementById("tblTareas").rows.length);
+  console.log(document.getElementById("tblTareas").rows[1].cells);
+  console.log(document.getElementById("tblTareas").rows[1].cells.length);
+  console.log(document.getElementById("tblTareas").rows[1].cells[2]);
+  for(var i = 0; i < document.getElementById("tblTareas").rows.length; i++ )
+  {
+  str1 = '';
+  for(var j = 0; j < document.getElementById("tblTareas").rows[i].cells.length; j++)
+  {
+  str1 += document.getElementById("tblTareas").rows[i].cells[j].innerHTML + '\n';
+      if(j == 4)
+        console.log(document.getElementById("tblTareas").rows[i].cells[j]); //.FechaIniTra.date.substring(0,10));
+
+        if (j == 5)
+          console.log(document.getElementById("tblTareas").rows[i].cells[j].FechaFinTra.date.substring(0,10));
+        }
+        alert (str1);
+      }
+      //let obtenerDato = resume_table.getElementsByTagName("tbody");
+      //console.log(obtenerDato);
+      //console.log(obtenerDato[5].innerHTML);
+      /*for (var i = 0;  cell = resume_table[i]; i++) {
+      alert("Valor Celda: " + cell[i].innerText);
+    }
+  }
+  catch(error)
+  {
+  alert('catch Error processing document ' + console.error(error));
+}
+}
+*/
 /*
 $(document).ready(function(){//cuando este lista la página
 

@@ -61,7 +61,7 @@ session_start();
 
                                      </tbody>
                                  </table>
-                             </div>                            
+                             </div>
                       </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ session_start();
                   </div>
                   <div id="innerHTML"></div>
                   <div class="modal-body">
-                       <div class="input-group flex-nowrap flex-nowrap ">                           
+                       <div class="input-group flex-nowrap flex-nowrap ">
                             <div class="row">
                                  <strong><label for="CboGteMtto">Pertenece A</label></strong>
                                  <Select  class="form-select" aria-label="Default select example" id="CboGteMtto" name='CboGteMtto' onchange="LlenarRubroList1()" ></select>
@@ -86,61 +86,97 @@ session_start();
                                      <select class="form-select" size="4" aria-label="size 10 select example" id="CboRubro" >
                                     </select>
                                     <div> <center>  <br>
-                                       <button type="button" class="btn btn-success" id="cmdAgregar" onclick="AddRubro()">&#8595;&#8595;</button>                                    
+                                       <button type="button" class="btn btn-success" id="cmdAgregar" onclick="AddRubro()">&#8595;&#8595;</button>
                                        <button type="button" class="btn btn-danger" id="cmdQuitar"  onclick="DelRubro()">&#8593;&#8593;</button> </cente>
-                                   </div>                                
+                                   </div>
                                     <strong><label for="CboRubro">Rubros en el Proyecto</label> </strong>
-                                    <select class="form-select" size="4" aria-label="size 10 select example" id="CboRubroPry">                                        
-                                    </select> 
+                                    <select class="form-select" size="4" aria-label="size 10 select example" id="CboRubroPry">
+                                    </select>
                              </div>
                          </div>
                   </div>
-                  <div class="modal-footer">                      
+                  <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Close</button>
                   </div>
                 </div>
               </div>
             </div>
 
-        
-        
+
+
          <!-- Modal ver Tareas -->
             <div class="modal fade" id="frmVerTareas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
+              <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel"><strong><label id="Titulo">Ver Tareas</label></strong></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
-                  </div>                 
+                  </div>
                   <div class="modal-body">
-                       <div class="input-group flex-nowrap flex-nowrap ">                           
+                       <div class="input-group flex-nowrap flex-nowrap ">
                             <div class="row">
                                 <div class="input-group p-2" >
                                         <div class="table-responsive-sm">
-                                           <table id="tblTareas" class="table table-sm">
+                                           <table id="tblTareas" class="table table-responsive" style="width: auto;">
                                                 <thead class="table-dark">
                                                    <tr>
                                                        <th class="header" scope="col">Codigo</th>
                                                        <th class="header" scope="col">Nombre</th>
                                                        <th class="header" scope="col">Valor en Rubro</th>
-                                                       <th class="header" scope="col">Valor Avance</th>                                                      
+                                                       <th class="header" scope="col">Valor Avance</th>
+                                                       <th class="header" scope="col">Fecha Inicial</th>
+                                                       <th class="header" scope="col">Fecha Final</th>
                                                    </tr>
                                                </thead>
                                                <tbody>
 
                                                </tbody>
                                            </table>
-                                       </div>                            
+                                       </div>
                                 </div>
                              </div>
                          </div>
                   </div>
-                  <div class="modal-footer">                      
+                  <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Close</button>
+                     <button type="button" class="btn btn-light" style="background: #023444;  color:white;" id="cmdGuardarTra" onclick="UpdateConfigTareas()">Guardar</button>
                   </div>
                 </div>
               </div>
             </div>
+
+            <div class="modal fade" id="frmConfigRubro" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Agregar OS General</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeMd()"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="form-group col-md-6">
+                        <strong><label for="FechaIni">Fecha Inicial</label> </strong>
+                        <input type="date" class="form-control" id="FechaIni" placeholder="Fecha" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" >
+                      </div>
+                      <div class="form-group col-md-6">
+                                       <strong><label for="FechaFin">Fecha Final</label> </strong>
+                                        <input type="date" class="form-control" id="FechaFin" placeholder="Fecha" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" >
+                                      </div>
+                                   </div>
+                                  <strong><label for="CantPres">Costo Presupuestado</label> </strong>
+                                  <input type="text" class="form-control" id="CantPres">
+                                  <div id="ErrorDesfa" style="color: red"></div>
+                                  <strong><label for="CantReal">Costo Real</label> </strong>
+                                  <input type="text" class="form-control" id="CantReal" readonly="true">
+                                  <div id="ErrorDesfa" style="color: red"></div>
+                                </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-light" style="background: #EDEEF2;" data-bs-dismiss="modal"  >Cancelar</button>
+                                  <button type="button" class="btn btn-light" style="background: #023444;  color:white;" id="cmdGuardar" onclick="UpdateConfigRubro()">Guardar</button>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
 
 
         <!--Dialogo para preguntar eliminacion -->
@@ -167,7 +203,7 @@ session_start();
 
 
 
-       
-        <script src="js/prArmaProyecto.js" type="text/javascript"></script>        
+
+        <script src="js/prArmaProyecto.js" type="text/javascript"></script>
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/styVis.css" rel="stylesheet" type="text/css"/>
