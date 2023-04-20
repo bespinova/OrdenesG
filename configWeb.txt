@@ -10,4 +10,4 @@ Servidor3 = 192.168.1.251\GAVSD;
 Base de Datos3 = QcConMarca;
 Usuario3 = sa;
 Password3 = G4v0217g0;
-path = C:\\OsGc\\configWeb.txt;
+path = C:\\inetpub\\wwwroot\\OsGc\\configWeb.txt;

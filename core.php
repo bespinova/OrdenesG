@@ -6,9 +6,7 @@ error_reporting(E_ALL);
 //define('DB_USER','sa');
 //define('DB_NAME','gestor');
 //define('DB_PASS','sistemas');
-define('PATH',"C:\\OsGc\\configWeb.txt");
-
-
+define('PATH',"C:\\inetpub\\wwwroot\\OsGc\\configWeb.txt;");
 
 
 
